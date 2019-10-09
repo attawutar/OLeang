@@ -19,6 +19,7 @@ body {
   }
 
   #container {
+    scroll-behavior: smooth;
     overflow-y:scroll;
     overflow-x:hidden;
     scroll-behavior: smooth;
@@ -38,6 +39,7 @@ body {
     z-index: 1000;
     margin: 0 auto;
     }
+
   
   .one {
     background-image: linear-gradient(to right, rgba(252,192,137,1), rgba(239,172,184,1));
@@ -157,7 +159,7 @@ body {
 
   .home{
     display: block;
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Righteous', cursive;
     z-index: 10005;
     font-size:2vw;
     color: white;
@@ -206,6 +208,13 @@ body {
     position: absolute;
     top: 86%;
     left: 90%;
+    width: 5%;
+    z-index: 10001;
+  }
+  .rightbutton{
+    position: absolute;
+    top: 86%;
+    left: 5%;
     width: 5%;
     z-index: 10001;
   }
