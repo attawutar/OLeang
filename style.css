@@ -289,7 +289,7 @@ body {
   }
 
   .twotopic {
-    top:22% ;
+    top:15% ;
     left:42.5%;
     font-size:7vw;
     color:#FFF;
@@ -321,7 +321,7 @@ body {
 
 /* ENGLANG */
   .threetopic {
-    top:22% ;
+    top:15% ;
     left:36%;
     font-size:7vw;
     color:#FFF;
@@ -369,7 +369,7 @@ body {
 }
 
 .bubbletext3 {
-  top: 72% ;
+  top: 75% ;
   left: 15%;
   text-align:center;
   font-size:0.8vw;
@@ -394,7 +394,7 @@ body {
   z-index: 9999;
 }
 .fourtopic {
-  top:22% ;
+  top:15% ;
   left:46%;
   font-size:7vw;
   color:#FFF;
@@ -433,7 +433,59 @@ body {
   font-family: 'Prompt', sans-serif;
 }
 
+
+
 /* denmark */
+
+.fivetopic {
+  top:15% ;
+  left:34%;
+  font-size:7vw;
+  color:#FFF;
+  position:absolute;
+  line-height:.7;
+  font-weight:bold;
+  z-index: 10000;
+}
+.boat{
+  position: absolute;
+  top: 80%;
+  width: 50%;
+  z-index: 10001;
+  -webkit-animation:linear infinite alternate;
+  -webkit-animation-name: boat;
+  -webkit-animation-duration: 30s;
+}
+.boat2{
+  position: absolute;
+  top: 82%;
+  width: 50%;
+  z-index: 10001;
+  -webkit-animation:linear infinite alternate;
+  -webkit-animation-name: boat2;
+  -webkit-animation-duration: 30s;
+}
+@-webkit-keyframes boat {
+  0% { left: -10%;}
+  50%{ left : 60%;}
+  100%{ left: -10%;}
+}
+@-webkit-keyframes boat2 {
+0% { left: 60%;}
+50%{ left : -10%;}
+100%{ left: 60%;}
+}
+
+.water5{
+  position: absolute;
+  top: 80%;
+  left: 0%;
+  width: 100%;
+  z-index: 10000;
+  -webkit-animation:linear infinite alternate;
+  -webkit-animation-name: waterden;
+  -webkit-animation-duration: 30s;
+}
 
 @font-face {
   font-family: 'DBHelvethaicaX-55Regular';
@@ -441,6 +493,24 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+@-webkit-keyframes waterden {
+  0% { left: -10%;}
+  50%{ left : 5%;}
+  100%{ left: -10%;}
+}
+
+/* bhutan */
+.sixtopic {
+  top:15% ;
+  left:38%;
+  font-size:7vw;
+  color:#FFF;
+  position:absolute;
+  line-height:.7;
+  font-weight:bold;
+  z-index: 10000;
+}
+
 
 @font-face {
   font-family: 'DBHelvethaicaX-55Regular';
