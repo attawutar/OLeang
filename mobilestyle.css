@@ -471,6 +471,7 @@
         50%{ left : 60%;}
         100%{ left: -10%;}
       }
+      
       @-webkit-keyframes boat2 {
       0% { left: 60%;}
       50%{ left : -10%;}
