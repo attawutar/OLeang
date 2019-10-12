@@ -224,16 +224,16 @@
       
         .leftbutton{
           position: absolute;
-          top: 86%;
-          left: 5%;
-          width: 5%;
+          top: 90%;
+          left: 8%;
+          width: 13%;
           z-index: 10001;
         }
         .rightbutton{
           position: absolute;
-          top: 86%;
-          left: 90%;
-          width: 5%;
+          top: 90%;
+          left: 80%;
+          width: 13%;
           z-index: 10001;
         }
       
@@ -511,6 +511,21 @@
         line-height:.7;
         font-weight:bold;
         z-index: 10000;
+      }
+      .water6{
+        position: absolute;
+        top: 80%;
+        left: 15%;
+        width: 80%;
+        z-index: 10000;
+        -webkit-animation:linear infinite alternate;
+        -webkit-animation-name: waterbt;
+        -webkit-animation-duration: 10s;
+      }
+      @-webkit-keyframes waterbt {
+        0% { left: 13%;}
+        50%{ left : 20%;}
+        100%{ left: 13%;}
       }
       
       
