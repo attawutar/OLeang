@@ -133,6 +133,23 @@
           z-index: 10002;
           font-family: 'Prompt', sans-serif;
         }
+
+        @-webkit-keyframes arrow {
+          0% { top: 97%;}
+          50%{ top : 110%;}
+          100%{ top: 97%;}
+      }
+      
+        .arrow{
+          top: 97%;
+          left: 103%;
+          width: 20%;
+          z-index: 10003;
+          position: absolute;
+          -webkit-animation:linear infinite alternate;
+          -webkit-animation-name: arrow;
+          -webkit-animation-duration: 1s;
+        }
       
         @-webkit-keyframes rotating /* Safari and Chrome */ {
           from {
@@ -162,10 +179,18 @@
             transform: rotate(360deg);
           }
         }
+
+        .homediv{
+          position: fixed;
+          width: 100%;
+          top: 5%;
+          left: 82%;
+          z-index: 10004;
+        }
+
         .homebutton{
           position: absolute;
-          top: 5%;
-          left: 84%;
+
           width: 13%;
           z-index: 10001;
           -webkit-animation: rotating 2s linear infinite;
@@ -222,12 +247,21 @@
           100%{ top : 86%;}
       }
       
+      @-webkit-keyframes bounce {
+        0% { top: 90%;}
+        50%{ top : 92%;}
+        100%{ top : 90%;}
+    }
+
         .leftbutton{
           position: absolute;
           top: 90%;
           left: 8%;
           width: 13%;
           z-index: 10001;
+          -webkit-animation:linear alternate infinite;
+          -webkit-animation-name: bounce;
+          -webkit-animation-duration: 1s;
         }
         .rightbutton{
           position: absolute;
@@ -235,6 +269,9 @@
           left: 80%;
           width: 13%;
           z-index: 10001;
+          -webkit-animation:linear alternate infinite;
+          -webkit-animation-name: bounce;
+          -webkit-animation-duration: 1s;
         }
       
         .topic{

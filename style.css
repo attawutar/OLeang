@@ -130,6 +130,23 @@ body {
     font-family: 'Prompt', sans-serif;
   }
 
+  @-webkit-keyframes arrow {
+    0% { top: 106%;}
+    50%{ top : 130%;}
+    100%{ top: 106%;}
+}
+
+  .arrow{
+    top: 106%;
+    left: 87%;
+    width: 20%;
+    z-index: 10003;
+    position: absolute;
+    -webkit-animation:linear infinite alternate;
+    -webkit-animation-name: arrow;
+    -webkit-animation-duration: 1s;
+  }
+
   @-webkit-keyframes rotating /* Safari and Chrome */ {
     from {
       -webkit-transform: rotate(0deg);
@@ -158,12 +175,20 @@ body {
       transform: rotate(360deg);
     }
   }
+
+ .homediv{
+  position: fixed;
+  width: 100%;
+  top: 5%;
+  left: 90%;
+  z-index: 10004;
+}
+
+  
   .homebutton{
     position: absolute;
-    top: 5%;
-    left: 90%;
     width: 5%;
-    z-index: 10001;
+    z-index: 10005;
     -webkit-animation: rotating 2s linear infinite;
     -moz-animation: rotating 2s linear infinite;
     -ms-animation: rotating 2s linear infinite;
@@ -211,33 +236,32 @@ body {
   }
 
   @-webkit-keyframes bounce {
-    0% { top: 86%;}
-    25%{ top: 84%;}
-    50%{ top : 86%;}
-    75%{ top : 84%;}
-    100%{ top : 86%;}
+    0% { top: 83%;}
+    50%{ top : 82%;}
+    100%{ top : 83%;}
 }
 
   .leftbutton{
     position: absolute;
-    top: 86%;
+    top: 83%;
     left: 5%;
-    width: 5%;
+    width: 7%;
     z-index: 10001;
+    -webkit-animation:linear alternate infinite;
+    -webkit-animation-name: bounce;
+    -webkit-animation-duration: 1s;
   }
   .rightbutton{
     position: absolute;
-    top: 86%;
+    top: 83%;
     left: 90%;
-    width: 5%;
+    width: 7%;
     z-index: 10001;
-  }
-
-  /* .leftbutton:hover{
-    -webkit-animation:linear alternate;
+    -webkit-animation:linear alternate infinite;
     -webkit-animation-name: bounce;
     -webkit-animation-duration: 1s;
-  } */
+  }
+
 
   .topic{
     width: 65%;
