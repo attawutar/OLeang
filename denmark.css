@@ -212,7 +212,13 @@ body{
     -webkit-animation-name: cloundtop;
     -webkit-animation-duration: 20s;
 }
-
+#windmill{
+    position: absolute;
+    width: 10%;
+    z-index: 100;
+    top: 63%;
+    left: 5.75%;
+}
 .bgfarm{
     position: absolute;
     width: 100%;

@@ -28,6 +28,7 @@
         <div id="info1">
             <img src="picture/page-denmark/clouds-farm(บน).svg" class="cloudfarm">
             <img src="picture/page-denmark/farm.svg" class="bgfarm">
+            <img src="picture/page-denmark/windmill.gif" id="windmill">
             <img src="picture/page-denmark/mini sun.svg" class="minisun">
             <img src="picture/page-denmark/mini boat.svg" class="miniboat">
             <img src="picture/page-denmark/mini boat2.svg" class="miniboat2">
@@ -61,6 +62,10 @@
                     homepage.style.transform = `rotate(${r}deg)`;
                 } window.addEventListener("scroll", rotatehomepage);
             
+                function rotatewindmill() {
+                    let r = window.pageYOffset;
+                    windmill.style.transform = `rotate(${r/10}deg)`;
+                } window.addEventListener("scroll", rotatewindmill);
             
         </script>
 </body>
