@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Prompt&display=swap');
+@font-face{
+    font-family: "DBHelvethaica";
+    src: url("font/DBHelvethaicaMonX.ttf")
+  }
+  @font-face{
+    font-family: "Chonburi";
+    src: url("font/Chonburi-Regular.ttf")
+  }
+  @font-face{
+    font-family: "THSarabunNew";
+    src: url("font/THSarabunNew.ttf")
+  }
+body{
+    margin: 0;
+    background-color: rgb(187, 206, 149); 
+}
+
+/* homebutton */
+
+#homepage {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 1em;
+    top: 2%;
+    z-index: 1000;
+  }
+
+/* top */
+#toppage{
+    width: 100%;
+    height: 36vw;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgba(187,206,149,1);
+}
+
+.bgtop{
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    z-index: 99;
+}
+
+@-webkit-keyframes cloundtop {
+    0% { left: 0%;}
+    50%{ left : -12%;}
+    100%{ left: 0%;}
+}
+
+.cloudtop{
+    position: absolute;
+    width: 100%;
+    z-index: 98;
+    left: 0%;
+    -webkit-animation:linear infinite alternate;
+    -webkit-animation-name: cloundtop;
+    -webkit-animation-duration: 20s;
+}
+
+/* river */
+
+#riverzone{
+    position: relative;
+    width: 100%;
+    height: 15vw;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.river{
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+}
+
+@-webkit-keyframes water {
+    0% { left: 0%;}
+    50%{ left : -2%;}
+    100%{ left: 0%;}
+}
+
+.water{
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    -webkit-animation:linear infinite alternate;
+    -webkit-animation-name: water;
+    -webkit-animation-duration: 10s;
+}
+@-webkit-keyframes boatright {
+    0% { left: 60%;}
+    50%{ left : 68%;}
+    100%{ left: 60%;}
+}
+@-webkit-keyframes boatleft {
+    0% { left: 10%;}
+    50%{ left : 2%;}
+    100%{ left: 10%;}
+}
+.boatright{
+    position: absolute;
+    width: 30%;
+    left: 60%;
+    top: 15%;
+    z-index: 100;
+    -webkit-animation:linear infinite alternate;
+    -webkit-animation-name: boatright;
+    -webkit-animation-duration: 15s;
+}
+.boatleft{
+    position: absolute;
+    width: 37%;
+    left: 10%;
+    z-index: 100;
+    -webkit-animation:linear infinite alternate;
+    -webkit-animation-name: boatleft;
+    -webkit-animation-duration: 15s;
+}
+
+/* info1 */
+
+#info1{
+    position: relative;
+    width: 100%;
+    height: 60vw;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.topic1 {
+    position: absolute;
+    z-index: 100;
+    width: 30vw;
+    height: 50vw;
+    right: 50vw;
+    font-size: 1.5em;
+    color: #38160d;
+    top: 25%;
+  }
+.topic1 h2{
+    font-family: "Chonburi";
+    font-size: 1.8em;
+}
+.topic1 h4{
+    margin-left: 10%;
+    font-family: "THSarabunNew";
+}
+.topic1 p{
+    font-size: 0.8em;
+    font-family: "THSarabunNew";
+}
+
+.info1img{
+    position: absolute;
+    width: 27%;
+    left: 55%;
+    top: 28%;
+    z-index: 100;
+}
+
+.minisun{
+    position: absolute;
+    width: 5%;
+    left: 40%;
+    top: 27.5%;
+    z-index: 95;
+}
+.miniboat{
+    position: absolute;
+    width: 8%;
+    z-index: 95;
+    left: 44%;
+    top: 38%;
+}
+.miniboat2{
+    position: absolute;
+    width: 8%;
+    z-index: 95;
+    left: 12%;
+    top: 34%;
+}
+.miniwave{
+    position: absolute;
+    width: 5%;
+    left: 45%;
+    top: 20%;
+    z-index: 95;
+}
+.miniwave2{
+    position: absolute;
+    width: 5%;
+    z-index: 95;
+    left: 7%;
+    top: 50%;
+}
+.miniwave3{
+    position: absolute;
+    width: 5%;
+    left: 85%;
+    top: 40%;
+    z-index: 95;
+}
+.cloudfarm{
+    position: absolute;
+    width: 100%;
+    z-index: 95;
+    left: 0%;
+    -webkit-animation:linear infinite alternate;
+    -webkit-animation-name: cloundtop;
+    -webkit-animation-duration: 20s;
+}
+#windmill{
+    position: absolute;
+    width: 10%;
+    z-index: 100;
+    top: 63%;
+    left: 5.75%;
+}
+.bgfarm{
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    z-index: 99;
+}
+
+#info2{
+    position: relative;
+    width: 100%;
+    height: 50vw;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.info2img{
+    position: absolute;
+    width: 40%;
+    top: 3%;
+    z-index: 100;
+}
+.topic2 {
+    position: absolute;
+    z-index: 100;
+    width: 30vw;
+    height: 50vw;
+    right: 25vw;
+    font-size: 1.5em;
+    color: #38160d;
+    top: 5%;
+  }
+.topic2 h2{
+    font-family: "Chonburi";
+    font-size: 1.8em;
+}
+.topic2 h4{
+    margin-left: 10%;
+    font-family: "THSarabunNew";
+}
+.topic2 p{
+    font-size: 0.7em;
+    font-family: "THSarabunNew";
+}
+.info2date{
+    font-size: 0.5em;
+    color: rgb(118, 116, 113);
+}
+
+@-webkit-keyframes cloundmid {
+    0% { left: 0%;}
+    50%{ left : 28%;}
+    100%{ left: 0%;}
+}
+
+.cloudmid{
+    position: absolute;
+    width: 60%;
+    z-index: 95;
+    top: 10%;
+    left: 0%;
+    -webkit-animation:linear infinite alternate;
+    -webkit-animation-name: cloundmid;
+    -webkit-animation-duration: 20s;
+}
+
+.milk{
+    position: absolute;
+    width: 20%;
+    z-index: 97;
+    top: 55%;
+    left: 78%;
+}
+#flagden{
+    position: absolute;
+    width: 10%;
+    z-index: 96;
+    top: 24%;
+    left: 84%;
+}
