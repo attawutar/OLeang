@@ -1,0 +1,581 @@
+@font-face{
+  font-family: "THSarabunNew";
+  src: url("font/THSarabunNew.ttf");
+}
+
+@font-face {
+  font-family: "Chonburi-Regular";
+  src: url("font/Chonburi-Regular.ttf");
+}
+
+@font-face {
+  font-family: "TIMESBD0";
+  src: url("font/TIMESBD0.ttf");
+}
+
+body {
+  background: #f3b07c;
+  margin: 0 auto;
+  width: 100%;
+  font-family: "THSarabunNew";
+  font-size: 1.3vw;
+}
+
+/* link hompage */
+#homepage {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 1em;
+  top: 2%;
+  z-index: 1000;
+}
+
+/* text Englang */
+h1 {
+  font-size: 5vw;
+  color: white;
+  top: 15%;
+  right: 45%;
+  position: absolute;
+  z-index: 101;
+  font-family: "TIMESBD0";
+}
+
+/*---------------- ground ----------------*/
+.ground {
+  width: 100%;
+  height: 35vw;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background-color: #b1b1e5;
+}
+
+.picture-ground:nth-child(1) img {
+  position: absolute;
+  width: 100%;
+  bottom: -26%;
+  z-index: 100;
+}
+
+.picture-ground:nth-child(2) img {
+  position: absolute;
+  width: 15%;
+  z-index: 102;
+  bottom: 17.5%;
+  left: 7.5%;
+}
+
+.picture-ground:nth-child(3) img {
+  position: absolute;
+  width: 10%;
+  z-index: 101;
+  bottom: 0%;
+  left: 10%;
+}
+
+.picture-ground:nth-child(4) img {
+  position: absolute;
+  width: 70%;
+  top: 50%;
+  z-index: 99;
+  left: 3%;
+}
+
+.picture-ground:nth-child(5) img {
+  position: absolute;
+  width: 30%;
+  top: 20%;
+  z-index: 99;
+  left: 50%;
+}
+
+.picture-ground:nth-child(6) img {
+  position: absolute;
+  width: 50%;
+  top: 20%;
+  z-index: 98;
+  left: 20%;
+}
+
+.picture-ground:nth-child(7) img {
+  position: absolute;
+  width: 10%;
+  top: 70%;
+  z-index: 98;
+  left: 15%;
+}
+
+.picture-ground:nth-child(8) img {
+  position: absolute;
+  width: 7%;
+  top: 35%;
+  z-index: 98;
+  left: 80%;
+}
+
+.picture-ground:nth-child(9) img {
+  position: absolute;
+  width: 7%;
+  top: 70%;
+  z-index: 98;
+  left: 90%;
+}
+
+.picture-ground:nth-child(10) img {
+  position: absolute;
+  width: 7%;
+  top: 25%;
+  z-index: 98;
+  left: 15%;
+}
+
+.picture-ground:nth-child(11) img {
+  position: absolute;
+  width: 10%;
+  top: 70%;
+  z-index: 98;
+  left: 25%;
+}
+.picture-ground:nth-child(12) img {
+  position: absolute;
+  width: 7%;
+  left: 43.5%;
+  top: 87%;
+}
+
+/* river */
+.river {
+  position: relative;
+  width: 100%;
+  height: 15vw;
+  max-width: 100%;
+  margin: 0 auto;
+  background-image: linear-gradient(#b1b1e5, #f3b07c);
+}
+
+.picture-river:nth-child(1) img {
+  position: absolute;
+  width: 15%;
+  top: 40%;
+  left: 15%;
+  z-index: 100;
+}
+
+.picture-river:nth-child(2) img {
+  position: absolute;
+  width: 15%;
+  top: 65%;
+  left: 35%;
+  z-index: 100;
+}
+
+.picture-river:nth-child(3) img {
+  position: absolute;
+  width: 15%;
+  top: 55%;
+  left: 60%;
+  z-index: 100;
+}
+
+/*---------------- layer 1 ----------------*/
+.layer1 {
+  width: 100%;
+  height: 58vw;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.back-layer1:nth-child(1) img {
+  position: absolute;
+  width: 11%;
+  margin-left: -2%;
+  top: 10%;
+}
+
+.back-layer1:nth-child(2) img {
+  position: absolute;
+  width: 11%;
+  margin-left: -1%;
+  top: 30%;
+}
+
+.back-layer1:nth-child(3) img {
+  position: absolute;
+  width: 49%;
+  z-index: 101;
+  right: 0%;
+  top: 2%;
+}
+
+.back-layer1:nth-child(4) img {
+  position: absolute;
+  width: 6%;
+  left: 2%;
+  top: 52%;
+}
+
+.back-layer1:nth-child(5) img {
+  position: absolute;
+  width: 6%;
+  left: 9%;
+  top: 52%;
+}
+
+.back-layer1:nth-child(6) img {
+  position: absolute;
+  width: 30%;
+  left: 25.3%;
+  z-index: 100;
+  top: 86%;
+}
+
+.back-layer1:nth-child(7) img {
+  position: absolute;
+  width: 6%;
+  left: 29.5%;
+  z-index: 101;
+  top: 79.7%;
+}
+
+.back-layer1:nth-child(8) img {
+  position: absolute;
+  width: 10%;
+  left: 20%;
+  top: 18%;
+}
+
+/* text layer1*/
+
+.text-layer1 {
+  position: absolute;
+  z-index: 100;
+  width: 30vw;
+  height: 50vw;
+  right: 50vw;
+  color: #1b1464;
+  top: 1%;
+}
+
+.text-layer1 h2 {
+  font-size: 2.8vw;
+  font-family: "Chonburi-Regular";
+  margin-left: 30%;
+}
+.text-layer1 h3 {
+  margin-left: 40%;
+  margin-top: 0%;
+}
+.text-layer1 p {
+  position: absolute;
+  margin: 10%;
+  top: 30%;
+}
+
+/*---------------- layer 2 ----------------*/
+
+.layer2 {
+  width: 100%;
+  height: 43vw;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.back-layer2:nth-child(1) img {
+  position: absolute;
+  width: 50%;
+  z-index: 101;
+}
+
+.back-layer2:nth-child(2) img {
+  position: absolute;
+  width: 11%;
+  right: 7%;
+  top: 5%;
+}
+
+.back-layer2:nth-child(3) img {
+  position: absolute;
+  width: 8%;
+  top: -10%;
+  right: 19%;
+}
+
+.back-layer2:nth-child(4) img {
+  position: absolute;
+  width: 11%;
+  top: 31%;
+  right: 0%;
+}
+
+.back-layer2:nth-child(5) img {
+  position: absolute;
+  width: 10%;
+  top: 60%;
+  right: 41%;
+  z-index: 100;
+}
+
+.back-layer2:nth-child(6) img {
+  position: absolute;
+  width: 42%;
+  top: 70%;
+  right: 0%;
+}
+/* wheel */
+.back-layer2:nth-child(7) img {
+  position: absolute;
+  width: 3%;
+  top: 94%;
+  right: 37%;
+}
+
+.back-layer2:nth-child(8) img {
+  position: absolute;
+  width: 5%;
+  top: 90%;
+  right: 30%;
+}
+.back-layer2:nth-child(9) img {
+  position: absolute;
+  width: 5%;
+  top: 90%;
+  right: 24%;
+}
+.back-layer2:nth-child(10) img {
+  position: absolute;
+  width: 5%;
+  top: 90%;
+  right: 17%;
+}
+.back-layer2:nth-child(11) img {
+  position: absolute;
+  width: 5%;
+  top: 90%;
+  right: 11%;
+}
+.back-layer2:nth-child(12) img {
+  position: absolute;
+  width: 3%;
+  top: 94%;
+  right: 6.5%;
+}
+.back-layer2:nth-child(13) img {
+  position: absolute;
+  width: 3%;
+  top: 94%;
+  right: 3%;
+}
+
+/*  */
+.back-layer2:nth-child(14) img {
+  position: absolute;
+  width: 38%;
+  top: 88%;
+  right: 6%;
+}
+/* text layer2*/
+.text-layer2 {
+  position: absolute;
+  z-index: 100;
+  width: 28vw;
+  height: 45vw;
+  right: 19vw;
+  color: #1b1464;
+  top: 1%;
+}
+
+.text-layer2 h2 {
+  font-size: 3vw;
+  font-family: "Chonburi-Regular";
+  margin-top: 0%;
+}
+
+.text-layer2 p {
+  position: absolute;
+  top: 20%;
+}
+
+/*---------------- layer 3 ----------------*/
+.layer3 {
+  width: 100%;
+  height: 58vw;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.back-layer3:nth-child(1) img {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+}
+
+.back-layer3:nth-child(2) img {
+  position: absolute;
+  width: 15%;
+  top: 19%;
+  left: 6%;
+}
+
+.back-layer3:nth-child(3) img {
+  position: absolute;
+  width: 15%;
+  top: 57%;
+  left: 23%;
+}
+
+.back-layer3:nth-child(4) img {
+  position: absolute;
+  width: 12%;
+  top: 27%;
+  left: 47%;
+}
+
+.back-layer3:nth-child(5) img {
+  position: absolute;
+  width: 15%;
+  top: 37%;
+  left: 77%;
+}
+
+/* text layer3*/
+.back-layer3:nth-child(6) {
+  position: absolute;
+  top: 11%;
+  left: 25%;
+  font-size: 2vw;
+  font-family: "Chonburi-Regular";
+  color: #1b1464;
+
+}
+.back-layer3:nth-child(7) {
+  position: absolute;
+  font-size: 1.15vw;
+  top: 28%;
+  display: flex;
+  left: 10%;
+  color: #1b1464;
+
+}
+.back-layer3 .box-layer3 {
+  width: 30%;
+  padding-left: 10%;
+}
+.back-layer3 .box-layer3 .text-layer3 {
+  background-color: #f3b07c;
+  border-radius: 1em;
+  font-family: "Chonburi-Regular";
+  color: #1b1464;
+  width: 25%;
+  padding: 1em;
+
+}
+
+/*---------------- layer 4 ----------------*/
+.layer4 {
+  width: 100%;
+  height: 34vw;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background-image: linear-gradient(#f3b07c, #b1b1e5);
+}
+
+.back-layer4:nth-child(1) img {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  z-index: 100;
+}
+
+.back-layer4:nth-child(2) img {
+  position: absolute;
+  width: 9%;
+  top: 63%;
+  z-index: 103;
+  left: 12%;
+}
+
+.back-layer4:nth-child(3) img {
+  position: absolute;
+  width: 16%;
+  top: 42%;
+  z-index: 103;
+  left: 8.5%;
+}
+
+.back-layer4:nth-child(4) img {
+  position: absolute;
+  width: 8%;
+  top: 84.5%;
+  left: 43.5%;
+  z-index: 99;
+}
+
+.back-layer4:nth-child(5) img {
+  position: absolute;
+  width: 70%;
+  top: 48%;
+  z-index: 99;
+  left: 3%;
+}
+
+.back-layer4:nth-child(6) img {
+  position: absolute;
+  width: 30%;
+  top: 18%;
+  z-index: 99;
+  left: 50%;
+}
+
+.back-layer4:nth-child(7) img {
+  position: absolute;
+  width: 50%;
+  top: 20%;
+  z-index: 98;
+  left: 20%;
+}
+
+.back-layer4:nth-child(8) img {
+  position: absolute;
+  width: 10%;
+  top: 61%;
+  z-index: 98;
+  left: 17%;
+}
+
+.back-layer4:nth-child(9) img {
+  position: absolute;
+  width: 7%;
+  top: 35%;
+  z-index: 98;
+  left: 80%;
+}
+
+.back-layer4:nth-child(10) img {
+  position: absolute;
+  width: 7%;
+  top: 70%;
+  z-index: 98;
+  left: 90%;
+}
+
+.back-layer4:nth-child(11) img {
+  position: absolute;
+  width: 7%;
+  top: 25%;
+  z-index: 98;
+  left: 15%;
+}
+
+.back-layer4:nth-child(12) img {
+  position: absolute;
+  width: 10%;
+  top: 61%;
+  z-index: 98;
+  left: 25%;
+}

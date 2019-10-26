@@ -1,0 +1,531 @@
+@font-face {
+  font-family: "THSarabunNew";
+  src: url("font/THSarabunNew.ttf");
+}
+@font-face {
+  font-family: "OldLondonAlternate";
+  src: url("font/OldLondonAlternate.ttf");
+}
+@font-face {
+  font-family: "Chonburi-Regular";
+  src: url("font/Chonburi-Regular.ttf");
+}
+@font-face {
+  font-family: "TIMESBD0";
+  src: url("font/TIMESBD0.ttf");
+}
+body {
+  background: #fcf9d2;
+  margin: 0 auto;
+  width: 100%;
+  font-family: "THSarabunNew";
+  font-size: 1.15vw;
+  color: #666666;
+}
+/* link hompage */
+#homepage {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 1em;
+  top: 2%;
+  z-index: 1000;
+}
+
+/* text Japan */
+h1 {
+  font-size: 6vw;
+  color: white;
+  top: 0%;
+  right: 45%;
+  position: absolute;
+  z-index: 101;
+  font-family: "TIMESBD0";
+}
+
+/* ground */
+.ground {
+  width: 100%;
+  height: 49vw;
+  width: 100vw;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background-image: linear-gradient(#95cecb, #ffc06e);
+}
+.picture-ground:nth-child(1) img {
+  position: absolute;
+  width: 100%;
+  bottom: 12%;
+  z-index: 99;
+}
+
+.picture-ground:nth-child(2) {
+  position: absolute;
+  width: 100%;
+  height: 16vw;
+  bottom: 0%;
+  z-index: 98;
+  background-image: linear-gradient(#95cecb, #fcf9d2);
+}
+
+.picture-ground:nth-child(3) img {
+  position: absolute;
+  width: 100%;
+  size: cover;
+  top: 6%;
+  z-index: 97;
+}
+
+.picture-ground:nth-child(4) img {
+  position: absolute;
+  width: 10%;
+  top: 30%;
+  right: 25%;
+  z-index: 97;
+}
+
+.picture-ground:nth-child(5) img {
+  position: absolute;
+  width: 60%;
+  top: 12%;
+  right: 19%;
+  z-index: 97;
+}
+
+.picture-ground:nth-child(6) img {
+  position: absolute;
+  width: 10%;
+  top: 10%;
+  right: 30%;
+  z-index: 97;
+}
+
+.picture-ground:nth-child(7) img {
+  position: absolute;
+  width: 8%;
+  top: 33%;
+  right: 93%;
+  z-index: 97;
+}
+
+.picture-ground:nth-child(8) img {
+  position: absolute;
+  width: 25%;
+  top: 39%;
+  right: 0%;
+  z-index: 97;
+}
+
+/* layer 1 */
+.layer1 {
+  width: 100%;
+  height: 48vw;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.back-layer1:nth-child(1) img {
+  position: absolute;
+  width: 23%;
+  top: 1%;
+  right: 77.2%;
+}
+
+.back-layer1:nth-child(2) img {
+  position: absolute;
+  width: 60%;
+  top: 3%;
+  right: 18%;
+  z-index: 2;
+}
+
+.back-layer1:nth-child(3) img {
+  position: absolute;
+  width: 13%;
+  top: 3%;
+  right: 0%;
+}
+
+.back-layer1:nth-child(4) img {
+  position: absolute;
+  width: 18.5%;
+  top: 37%;
+  right: 73%;
+}
+
+.back-layer1:nth-child(5) img {
+  position: absolute;
+  width: 25%;
+  top: 34%;
+  right: 71%;
+  z-index: 10;
+}
+
+.back-layer1:nth-child(6) img {
+  position: absolute;
+  width: 31%;
+  top: 88%;
+  right: 11%;
+  z-index: 1;
+}
+
+.back-layer1:nth-child(7) img {
+  position: absolute;
+  width: 28%;
+  top: 13%;
+  right: 75%;
+  z-index: 100;
+}
+
+.text-layer1:nth-child(8) {
+  position: absolute;
+  width: 50%;
+  top: 5%;
+  right: 18%;
+  z-index: 10;
+}
+
+.text-layer1 h2 {
+  font-size: 4.5vw;
+  font-family: "OldLondonAlternate";
+  color: black;
+}
+
+.text-layer1 h3 {
+  font-size: 0.8vw;
+  font-family: "Chonburi-Regular";
+  margin: -5%;
+  color: black;
+}
+.text-layer1:nth-child(9) {
+  position: absolute;
+  width: 15%;
+  top: 29%;
+  right: 21%;
+  z-index: 10;
+}
+
+.text-layer1:nth-child(10) {
+  position: absolute;
+  width: 29%;
+  top: 70%;
+  right: 37%;
+  z-index: 10;
+}
+
+.back-layer1:nth-child(11) img {
+  position: absolute;
+  width: 29%;
+  top: 32%;
+  right: 37%;
+  z-index: 100;
+}
+
+.back-layer1:nth-child(12) img {
+  position: absolute;
+  width: 13%;
+  top: 75%;
+  right: 23%;
+  z-index: 100;
+}
+
+.back-layer1:nth-child(13) img {
+  position: absolute;
+  width: 44%;
+  top: 25%;
+  right: 22%;
+  z-index: 9;
+}
+
+/* layer 2 */
+
+.layer2 {
+  width: 100%;
+  height: 48vw;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.back-layer2:nth-child(1) img {
+  position: absolute;
+  width: 45%;
+  top: 18%;
+  left: 5%;
+  z-index: 9;
+}
+
+.back-layer2:nth-child(2) img {
+  position: absolute;
+  width: 25%;
+  top: -9.3%;
+  left: 29.9%;
+  z-index: 10;
+}
+
+.back-layer2:nth-child(3) img {
+  position: absolute;
+  width: 15%;
+  top: 5%;
+  left: 12%;
+  z-index: 8;
+}
+
+.back-layer2:nth-child(4) img {
+  position: absolute;
+  width: 54%;
+  top: 7%;
+  right: 0%;
+  z-index: 7;
+}
+
+.back-layer2:nth-child(5) img {
+  position: absolute;
+  width: 57%;
+  top: 39%;
+  right: 0%;
+  z-index: 8;
+}
+
+.back-layer2:nth-child(6) img {
+  position: absolute;
+  width: 12%;
+  top: 94%;
+  right: 33%;
+  z-index: 8;
+}
+
+.text-layer2:nth-child(7) {
+  position: absolute;
+  width: 26%;
+  top: 13%;
+  right: 21%;
+  z-index: 100;
+}
+
+.text-layer2 h2 {
+  font-family: "Chonburi-Regular";
+  font-size: 2.8vw;
+  color: black;
+}
+
+.back-layer2:nth-child(8) img {
+  position: absolute;
+  width: 12%;
+  top: 93%;
+  right: 28.5%;
+  z-index: 8;
+}
+
+.back-layer2:nth-child(9) p{
+  position: absolute;
+    font-family: "Chonburi-Regular";
+    color: #CAA259;
+    font-size: 1vw;
+    width: 13%;
+    top: 87.5%;
+    right: 26%;
+    z-index: 8;
+}
+/* layer 3 */
+.layer3 {
+  width: 100%;
+  height: 48vw;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.back-layer3:nth-child(1) img {
+  position: absolute;
+  width: 58%;
+  top: -23%;
+  left: 0%;
+}
+
+.back-layer3:nth-child(2) img {
+  position: absolute;
+  width: 10%;
+  top: 26.6%;
+  left: 46%;
+}
+
+.back-layer3:nth-child(3) img {
+  position: absolute;
+  width: 18%;
+  top: 44%;
+  left: 1%;
+}
+
+.back-layer3:nth-child(4) img {
+  position: absolute;
+  width: 40%;
+  top: 46%;
+  right: 7%;
+  z-index: 10;
+}
+
+.text-layer3:nth-child(5) {
+  position: absolute;
+  width: 30%;
+  top: 45%;
+  right: 51%;
+  z-index: 10;
+}
+
+.text-layer3 h2 {
+  font-family: "Chonburi-Regular";
+  font-size: 2.8vw;
+  text-align: right;
+  color: black;
+}
+
+.text-layer3 h3 {
+  font-family: "Chonburi-Regular";
+  font-size: 2.7vw;
+  position: absolute;
+  top: -25%;
+  right: -113%;
+  color: black;
+}
+
+.text-layer3:nth-child(6) {
+  position: absolute;
+  width: 30%;
+  top: 97%;
+  right: 61%;
+  z-index: 10;
+  font-family: "Chonburi-Regular";
+  font-size: 1.4vw;
+}
+
+.box1 {
+  position: absolute;
+  width: 48%;
+  height: 75%;
+  top: 44%;
+  right: 0%;
+  z-index: 0;
+  background-color: #f1957c;
+}
+
+/* layer 4 */
+.layer4 {
+  width: 100%;
+  height: 80vw;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.back-layer4:nth-child(1) img {
+  position: absolute;
+  width: 100%;
+  top: 11%;
+}
+
+.back-layer4:nth-child(2) img {
+  position: absolute;
+  width: 47%;
+  top: 53%;
+  z-index: 11;
+}
+
+.back-layer4:nth-child(3) img {
+  position: absolute;
+  width: 92%;
+  top: 44%;
+  left: 2%;
+  z-index: 10;
+}
+
+.text-layer4:nth-child(4) {
+  position: absolute;
+  width: 30%;
+  top: 55%;
+  left: 51%;
+  z-index: 10;
+}
+
+.text-layer4 h2 {
+  font-family: "Chonburi-Regular";
+  font-size: 2.6vw;
+  color: black;
+  position: absolute;
+  top: -35%;
+  left: 59%;
+}
+
+.text-layer4:nth-child(4) {
+  position: absolute;
+  width: 30%;
+  top: 55%;
+  left: 51%;
+  z-index: 10;
+}
+
+.text-layer4:nth-child(5) {
+  position: absolute;
+  font-family: "Chonburi-Regular";
+  width: 30%;
+  top: 86%;
+  left: 51%;
+  z-index: 10;
+  font-size: 1.4vw;
+}
+
+.box2 {
+  position: absolute;
+  width: 48.5%;
+  height: 45%;
+  top: 51.2%;
+  left: 0%;
+  z-index: 10;
+  background-color: #f1957c;
+}
+/* layer 5 */
+.layer5 {
+  width: 100%;
+  height: 30vw;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background-image: linear-gradient(#fcf9d2, #95cecb);
+}
+
+.back-layer5:nth-child(1) img {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  z-index: 10;
+}
+
+.back-layer5:nth-child(2) img {
+  position: absolute;
+  width: 100%;
+  top: -11%;
+}
+
+.back-layer5:nth-child(3) img {
+  position: absolute;
+  width: 60%;
+  top: -25%;
+  right: 14%;
+}
+
+.back-layer5:nth-child(4) img {
+  position: absolute;
+  width: 65%;
+  top: 2%;
+  right: 3%;
+}
+
+.back-layer5:nth-child(5) img {
+  position: absolute;
+  width: 53%;
+  top: 15%;
+  right: 45%;
+  z-index: 9;
+}
