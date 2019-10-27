@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="denmark.css">
-    <link rel="stylesheet" media="screen and (max-width: 375px)" href="mobiledenmark.css">
+    <link rel="stylesheet" href="bhutan.css">
     <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
-    <title>Denmark</title>
+    <title>Bhutan</title>
 </head>
 <body>
         <div id="homepage">
@@ -15,8 +14,8 @@
         </div>
 
         <div id="toppage">
-                <h1>DENMARK</h1>
-            <img src="picture/page-denmark/toppage.svg" class="bgtop">
+                <h1>BHUTAN</h1>
+            <img src="picture/page-bhutan/background.svg" class="bgtop">
             <img src="picture/page-denmark/move clouds.svg" class="cloudtop">
         </div>
 
@@ -55,7 +54,7 @@
         <div id="info2">
             <img src="picture/page-denmark/รูป2.jpg" class="info2img">
             <img src="picture/page-denmark/เมฆศึกษาฟาร์ม(กลาง).svg" class="cloudmid">
-            <img src="picture/page-denmark/กล่องนม.svg" id="milk">
+            <img src="picture/page-denmark/กล่องนม.svg" class="milk">
             <img src="picture/page-denmark/ธงเดนมาร์ก.svg" id="flagden">
             <div class="topic2">
                 <h2>ศึกษาฟาร์มโคนม</h2>
@@ -73,17 +72,17 @@
                     </p>
                     <br>
                     <br>
-                    <h3 class="info2date">วันที่ 16<br>
+                    <h2 class="info2date">วันที่16<br>
                         มกราคม<br>
                         พ.ศ. 2505
-                    </h3>
+                    </h2>
             </div>
         </div>
         <div id="info3">
             <img src="picture/page-denmark/รูป3.jpg" class="info3img">
             <img src="picture/page-denmark/กล่องนมบนสายพาน.svg" class="saipan">
-            <img src="picture/page-denmark/กล่องลังที่เหมือนเนยก้อน.svg" id="butter">
-            <img src="picture/page-denmark/กล่องลังที่เหมือนเนยก้อน.svg" id="butter2">
+            <img src="picture/page-denmark/กล่องลังที่เหมือนเนยก้อน.svg" id="butter" class="small">
+            <img src="picture/page-denmark/กล่องลังที่เหมือนเนยก้อน.svg" id="butter2" class="smalll">
             <img src="picture/page-denmark/cloud dots (ล่าง).svg" class="footcloud">
             <div class="topic3">
                 <h2>แบรนด์นมแห่งชาติ</h2>
@@ -112,12 +111,10 @@
                 function flag(){
                 let y = window.pageYOffset;
                 console.log(y);
-                if(y > 850){
-                    milk.classList.add('dukdik');
-                    flagden.classList.add('dukdik');
-                }if(y > 2401){
-                    milk.classList.remove('dukdik');
-                    flagden.classList.remove('dukdik');
+                if(y > 1000 && y < 1354){
+                flagden.style.top = `${(y+100)-1331}%`;
+                }if(y > 1355){
+			    flagden.style.top = `24.5%`;
                 }
                 } window.addEventListener("scroll", flag);
   
