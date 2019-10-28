@@ -13,7 +13,7 @@
   }
 body{
     margin: 0;
-    background-color: rgb(154, 198, 155); 
+    background-color: rgb(213, 182, 113); 
 }
 
 /* homebutton */
@@ -50,31 +50,26 @@ h1{
     left: 38%;
     top: 5%;
     font-size: 6vw;
-    z-index: 100;
+    z-index: 101;
 }
 
 @-webkit-keyframes cloundtop {
-    0% { left: 0%;}
-    50%{ left : -12%;}
-    100%{ left: 0%;}
+    0% { left: 5%;}
+    50%{ left : 15%;}
+    100%{ left: 5%;}
 }
 
 .cloudtop{
     position: absolute;
-    width: 100%;
-    z-index: 98;
-    left: 0%;
+    width: 80%;
+    z-index: 100;
+    left: 5%;
+    top: -20%;
     -webkit-animation:linear infinite alternate;
     -webkit-animation-name: cloundtop;
-    -webkit-animation-duration: 20s;
+    -webkit-animation-duration: 15s;
 }
 
-
-.river{
-    position: absolute;
-    width: 100%;
-    z-index: 99;
-}
 
 @-webkit-keyframes water {
     0% { left: 0%;}
@@ -86,46 +81,19 @@ h1{
     position: absolute;
     width: 100%;
     z-index: 99;
+    top: 60%;
     -webkit-animation:linear infinite alternate;
     -webkit-animation-name: water;
-    -webkit-animation-duration: 10s;
+    -webkit-animation-duration: 5s;
 }
-@-webkit-keyframes boatright {
-    0% { left: 60%;}
-    50%{ left : 68%;}
-    100%{ left: 60%;}
-}
-@-webkit-keyframes boatleft {
-    0% { left: 10%;}
-    50%{ left : 2%;}
-    100%{ left: 10%;}
-}
-.boatright{
-    position: absolute;
-    width: 30%;
-    left: 60%;
-    top: 15%;
-    z-index: 100;
-    -webkit-animation:linear infinite alternate;
-    -webkit-animation-name: boatright;
-    -webkit-animation-duration: 15s;
-}
-.boatleft{
-    position: absolute;
-    width: 37%;
-    left: 10%;
-    z-index: 100;
-    -webkit-animation:linear infinite alternate;
-    -webkit-animation-name: boatleft;
-    -webkit-animation-duration: 15s;
-}
+
 
 /* info1 */
 
 #info1{
     position: relative;
     width: 100%;
-    height: 60vw;
+    height: 50vw;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -133,12 +101,11 @@ h1{
 .topic1 {
     position: absolute;
     z-index: 100;
-    width: 30vw;
-    height: 50vw;
+    width: 25vw;
+    height: 20vw;
     right: 50vw;
     font-size: 1.5em;
     color: #38160d;
-    top: 25%;
   }
 .topic1 h2{
     font-family: "Chonburi";
@@ -155,75 +122,48 @@ h1{
 
 .info1img{
     position: absolute;
-    width: 27%;
+    width: 45%;
     left: 55%;
-    top: 28%;
+    top: 12%;
     z-index: 100;
 }
 
-.minisun{
+.station{
     position: absolute;
-    width: 5%;
-    left: 40%;
-    top: 27.5%;
-    z-index: 95;
+    width: 20%;
+    z-index: 97;
+    top: 71%;
+    left: 80%;
 }
-.miniboat{
+
+.tractor{
     position: absolute;
-    width: 8%;
-    z-index: 95;
-    left: 44%;
-    top: 38%;
+    width: 20%;
+    z-index: 97;
+    top: 79%;
+    left: 50%;
 }
-.miniboat2{
-    position: absolute;
-    width: 8%;
-    z-index: 95;
-    left: 12%;
-    top: 34%;
-}
-.miniwave{
-    position: absolute;
-    width: 5%;
-    left: 45%;
-    top: 20%;
-    z-index: 95;
-}
-.miniwave2{
-    position: absolute;
-    width: 5%;
-    z-index: 95;
-    left: 7%;
-    top: 50%;
-}
-.miniwave3{
-    position: absolute;
-    width: 5%;
-    left: 85%;
-    top: 40%;
-    z-index: 95;
+
+@-webkit-keyframes cloundfarm {
+    0% { left: 0%;}
+    50%{ left : 10%;}
+    100%{ left: 0%;}
 }
 .cloudfarm{
     position: absolute;
-    width: 100%;
+    width: 90%;
     z-index: 95;
-    left: 0%;
+    top: 0%;
     -webkit-animation:linear infinite alternate;
-    -webkit-animation-name: cloundtop;
+    -webkit-animation-name: cloundfarm;
     -webkit-animation-duration: 20s;
 }
-#windmill{
-    position: absolute;
-    width: 10%;
-    z-index: 100;
-    top: 63%;
-    left: 5.75%;
-}
+
 .bgfarm{
     position: absolute;
     width: 100%;
-    bottom: 0%;
-    z-index: 99;
+    top: 30.5%;
+    z-index: 102;
 }
 /* info2 */
 #info2{
@@ -243,7 +183,7 @@ h1{
     position: absolute;
     z-index: 100;
     width: 30vw;
-    height: 50vw;
+    height: 20vw;
     right: 25vw;
     font-size: 1.5em;
     color: #38160d;
@@ -268,14 +208,14 @@ h1{
 
 @-webkit-keyframes cloundmid {
     0% { left: 0%;}
-    50%{ left : 28%;}
+    50%{ left : 10%;}
     100%{ left: 0%;}
 }
 
 .cloudmid{
     position: absolute;
-    width: 60%;
-    z-index: 95;
+    width: 80%;
+    z-index: 97;
     top: 10%;
     left: 0%;
     -webkit-animation:linear infinite alternate;
@@ -283,18 +223,59 @@ h1{
     -webkit-animation-duration: 20s;
 }
 
-.milk{
+.school{
     position: absolute;
-    width: 20%;
-    z-index: 97;
-    top: 55%;
-    left: 78%;
+    width: 40%;
+    z-index: 99;
+    top: 45%;
+    left: -3%;
 }
-#flagden{
+.temple{
     position: absolute;
-    width: 10%;
+    width: 35%;
+    z-index: 99;
+    top: 42.5%;
+    left: 65%;
+}
+.tree{
+    position: absolute;
+    width: 40%;
+    z-index: 99;
+    top: 63.5%;
+    left: 30%;
+}
+.katra{
+    position: absolute;
+    width: 15%;
+    z-index: 99;
+    top: 5%;
+    left: 5%;
+}
+.tv{
+    position: absolute;
+    width: 30%;
+    z-index: 99;
+    top: -2%;
+    left: 15%;
+}
+.sun{
+    position: absolute;
+    width: 30%;
+    z-index: 95;
+    top: 15%;
+    left: 73%;
+}
+.mountain{
+    position: absolute;
+    width: 100%;
+    z-index: 98;
+    top: 5%;
+}
+.mountain2{
+    position: absolute;
+    width: 100%;
     z-index: 96;
-    left: 84%;
+    top: 5%;
 }
 
 /* info3 */
