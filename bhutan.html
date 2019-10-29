@@ -63,24 +63,29 @@
 
             </div>
         </div>
-        <!--
+        
         <div id="info3">
-            <img src="picture/page-bhutan//รูป3.jpg" class="info3img">
-            <img src="picture/page-bhutan//กล่องนมบนสายพาน.svg" class="saipan">
-            <img src="picture/page-bhutan//กล่องลังที่เหมือนเนยก้อน.svg" id="butter" class="small">
-            <img src="picture/page-bhutan//กล่องลังที่เหมือนเนยก้อน.svg" id="butter2" class="smalll">
-            <img src="picture/page-bhutan//cloud dots (ล่าง).svg" class="footcloud">
+            <img src="picture/page-bhutan/เมฆกลาง.svg" class="cloudmid">
+            <img src="picture/page-bhutan/แผนที่โลก.svg" class="theworld">
+            <img src="picture/page-bhutan/ธงสี.svg" class="flagcolor">
             <div class="topic3">
-                <h2>แบรนด์นมแห่งชาติ</h2>
+                <h2>ความสัมพันธ์ไทย-ฎูฏาน</h2>
 
-                <p>ทุกวันนี้ผลิตภัณฑ์นม ภายใต้แบรนด์ไทย-เดนมาร์ค ผลิตจากน้ำนมจากแม่วัวพันธุ์ดี จากฟาร์มเกษตรกรของสหกรณ์โคนมกว่า 40 แห่งทั่วประเทศ ส่งตรงถึงศูนย์รับน้ำนม ก่อนส่งมายังโรงงานแปรรูปโรงงานนมทั้งหมด 5 แห่งคือ โรงงานนมมวกเหล็ก โรงงานนมปราณบุรี โรงงานนมขอนแก่น โรงงานนมเชียงใหม่ และ โรงงานนมสุโขทัย
+                <p>ปัจจุบันประเทศไทยมีการตั้งสถานกงสุลใหญ่ประจำประเทศภูฏาน ภายใต้การดูแลของ
+                    สถานเอกอัครราชทูต ณ กรุงธากา ประเทศบังกลาเทศ
+                    <br>
+                    <br>
+                    ทั้งนี้ความสัมพันธ์ระหว่างไทยและภูฏานมีร่วมกันในหลายลักษณะ โดยเฉพาะประเด็นเรื่องความสัมพันธ์ระหว่างราชวงศ์ทั้งสองที่ค่อนข้างมีความชัดเจนอย่างมาก เห็นได้จากการเสด็จเยือนระหว่างกันของทั้งราชวงศ์ไทยและราชวงศ์ภูฏานในโอกาสต่าง ๆ 
+                    <br>
+                    <br>
+                    นอกจากนี้ความสัมพันธ์ทางด้านการเมืองระหว่างรัฐบาลเองก็ไม่ยิ่งหย่อนไปกว่ากัน แม้ว่าสายสัมพันธ์ทางการเมืองและการค้าระหว่างสองประเทศจะยังไม่มากนัก แต่ต้องยอมรับประเทศไทยได้ดุลการค้าจากประเทศภูฏานจำนวนมาก ภูฏานถือเป็นคู่ค้าลำดับที่ 166 ของประเทศไทย โดยมีมูลค่าการค้าราว 15.5 ล้านเหรียญ แต่มูลค่าการค้าเติบโตในแต่ละปีมากกว่าร้อยละ 38 โดยส่วนใหญ่รัฐบาลภูฏานจะนำเข้าสินค้าจากประเทศไทยเป็นสำคัญ
                     </p>
                     
         </div>
         </div>
+        
         <div id="footer">
-            <img src="picture/page-bhutan//footer.svg" class="bgfoot">
-            <img src="picture/page-bhutan//footer clouds.svg" class="cloudfooter">
+            <img src="picture/page-bhutan/footer.svg" class="bgfoot">
         </div>
 
         <script>
@@ -89,21 +94,7 @@
                     homepage.style.transform = `rotate(${r}deg)`;
                 } window.addEventListener("scroll", rotatehomepage);
             
-                function rotatewindmill() {
-                    let r = window.pageYOffset;
-                    windmill.style.transform = `rotate(${r/5}deg)`;
-                } window.addEventListener("scroll", rotatewindmill);
-
-                function flag(){
-                let y = window.pageYOffset;
-                console.log(y);
-                if(y > 1000 && y < 1354){
-                flagden.style.top = `${(y+100)-1331}%`;
-                }if(y > 1355){
-			    flagden.style.top = `24.5%`;
-                }
-                } window.addEventListener("scroll", flag);
-  
-        </script> -->
+            
+        </script>
 </body>
 </html>

@@ -104,8 +104,8 @@ h1{
     width: 25vw;
     height: 20vw;
     right: 50vw;
-    font-size: 1.5em;
-    color: #38160d;
+    font-size: 1.7em;
+    color: #2f0d38;;
   }
 .topic1 h2{
     font-family: "Chonburi";
@@ -185,8 +185,8 @@ h1{
     width: 30vw;
     height: 20vw;
     right: 25vw;
-    font-size: 1.5em;
-    color: #38160d;
+    font-size: 1.7em;
+    color: #2f0d38;;
     top: 5%;
   }
 .topic2 h2{
@@ -200,10 +200,6 @@ h1{
 .topic2 p{
     font-size: 0.7em;
     font-family: "THSarabunNew";
-}
-.info2date{
-    font-size: 0.5em;
-    color: rgb(118, 116, 113);
 }
 
 @-webkit-keyframes cloundmid {
@@ -260,10 +256,10 @@ h1{
 }
 .sun{
     position: absolute;
-    width: 30%;
+    width: 25%;
     z-index: 95;
-    top: 15%;
-    left: 73%;
+    top: 19%;
+    left: 75%;
 }
 .mountain{
     position: absolute;
@@ -291,73 +287,37 @@ h1{
 .topic3 {
     position: absolute;
     z-index: 100;
-    width: 30vw;
-    height: 50vw;
+    width: 40vw;
+    height: 40vw;
     right: 25vw;
-    font-size: 1.5em;
-    color: #38160d;
+    font-size: 1.7em;
+    color: #2f0d38;
     top: 5%;
+    left: 15%;
   }
 .topic3 h2{
     font-family: "Chonburi";
     font-size: 1.8em;
+
 }
 
 .topic3 p{
     font-size: 0.7em;
     font-family: "THSarabunNew";
-    background-color: rgb(204, 255, 204);
-    border-radius: 10%;
-    padding: 5%;
+    
 }
-.info3img{
+.theworld{
     position: absolute;
-    width: 30%;
+    width: 45%;
+    left: 54%;
     top: 10%;
-    left: 10%;
     z-index: 100;
 }
-.saipan{
+.flagcolor{
     position: absolute;
-    width: 65%;
-    top: 65%;
-    left: 20%;
-    z-index: 100;
-}
-#butter{
-    position: absolute;
-    width: 20%;
-    top: 35%;
-    left: 48%;
-    z-index: 100;
-}
-
-#butter2{
-    position: absolute;
-    width: 15%;
-    top: 35%;
-    left: 65%;
-    z-index: 100;
- 
-}
-
-
-
-
-
-@-webkit-keyframes cloundfoot {
-    0% { left: 0%;}
-    50%{ left : 30%;}
-    100%{ left: 0%;}
-}
-.footcloud{
-    position: absolute;
-    width: 80%;
-    z-index: 95;
-    left: 0%;
-    -webkit-animation:linear infinite alternate;
-    -webkit-animation-name: cloundfoot;
-    -webkit-animation-duration: 10s;
+    width: 100%;
+    z-index: 99;
+    top: 60%;
 }
 
 /* footer */
@@ -373,19 +333,4 @@ h1{
     width: 100%;
     bottom: 0%;
     z-index: 100;
-}
-
-@-webkit-keyframes cloundfoot {
-    0% { left: 10%;}
-    50%{ left : 20%;}
-    100%{ left: 10%;}
-}
-.cloudfooter{
-    position: absolute;
-    width: 80%;
-    z-index: 101;
-    left: 10%;
-    -webkit-animation:linear infinite alternate;
-    -webkit-animation-name: cloundfoot;
-    -webkit-animation-duration: 20s;
 }
