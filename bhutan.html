@@ -24,7 +24,7 @@
         <div id="info1">
             <img src="picture/page-bhutan/เมฆบน.svg" class="cloudfarm">
             <img src="picture/page-bhutan/เกษตรขั้นบันได.svg" class="bgfarm">
-            <img src="picture/page-bhutan/รถ tractor.svg" class="tractor">
+            <img src="picture/page-bhutan/รถ tractor.svg" id="tractor">
             <img src="picture/page-bhutan/ป้ายสถานีเกษตร.svg" class="station">
             <img src="picture/page-bhutan/รูป shakehand.svg" class="info1img">
             <div class="topic1">
@@ -45,7 +45,7 @@
             <img src="picture/page-bhutan/โรงเรียน.svg" class="school">
             <img src="picture/page-bhutan/วัด.svg" class="temple">
             <img src="picture/page-bhutan/ต้นไม้.svg" class="tree">
-            <img src="picture/page-bhutan/กระทะ.svg" class="katra">
+            <img src="picture/page-bhutan/กระทะ.svg" id="katra">
             <img src="picture/page-bhutan/ทีวี.svg" class="tv">
             <img src="picture/page-bhutan/ภูเขา.svg" class="mountain">
             <img src="picture/page-bhutan/พระอาทิตย์.svg" class="sun">
@@ -67,7 +67,7 @@
         
         <div id="info3">
             <img src="picture/page-bhutan/เมฆกลาง.svg" class="cloudfoot">
-            <img src="picture/page-bhutan/แผนที่โลก.svg" class="theworld">
+            <img src="picture/page-bhutan/แผนที่โลก.svg" id="theworld">
             <img src="picture/page-bhutan/ธงสี.svg" class="flagcolor">
             <div class="topic3">
                 <h2>ความสัมพันธ์ไทย-ฎูฏาน</h2>
@@ -94,7 +94,25 @@
                     let r = window.pageYOffset;
                     homepage.style.transform = `rotate(${r}deg)`;
                 } window.addEventListener("scroll", rotatehomepage);
-            
+
+                function runcar() {
+                    let r = window.pageYOffset;
+                    console.log(r);
+                    tractor.style.left = `${(r/18)}%`;
+                } window.addEventListener("scroll", runcar);
+
+                function talewrotate() {
+                    let r = window.pageYOffset;
+                    console.log(r);
+                    if (r > 1000) { 
+			 		katra.classList.add('talew')
+			 	}
+			else {	 
+			 		katra.classList.remove('close')
+                }
+                 } window.addEventListener("scroll", talewrotate);
+
+
             
         </script>
 </body>

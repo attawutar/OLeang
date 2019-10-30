@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Prompt&display=swap');
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 1024px){
     html{
         scroll-behavior: smooth;
       }
@@ -9,7 +9,6 @@
           padding: 0;
           margin:0;
           font-family: 'DBHelvethaicaX-55Regular' !important;
-          font-size: 100px;
           scroll-behavior: smooth;
         }
         #container .box {
@@ -79,15 +78,21 @@
       
         /* home */
         .bodyy{
-          width: 100%;
-          height: 80%;
+          width: 100vw;
+          height: 100vh;
           position: absolute;
         }
-      
-        .bg{
+        .bgthai{
           width: 100%;
           height: 100%;
-          top: 35%;
+          top:20%;
+          position: relative;
+          z-index: 9999;
+        }
+        .bg{
+          width: 100vw;
+          height: 100%;
+          top: 20vh;
           position: relative;
           z-index: 9999;
         }
@@ -122,14 +127,14 @@
           z-index: 10001;
         }
       
-        .bubbletext {
-          top: 70% ;
-          left: 13%;
-          text-align:center;
-          font-size:2.2vw;
-          color:rgb(186, 134, 56);
+        .bubbleword p {
+          top: 78%;
+          left: 15%;
+          text-align: center;
+          font-size: 2vw;
+          color: rgb(186, 134, 56);
           position: relative;
-          line-height:.7;
+          line-height: .7;
           z-index: 10002;
           font-family: 'Prompt', sans-serif;
         }
@@ -190,7 +195,6 @@
 
         .homebutton{
           position: absolute;
-
           width: 13%;
           z-index: 10001;
           -webkit-animation: rotating 2s linear infinite;
@@ -372,13 +376,13 @@
       }
       
         .bubbletext2 {
-          top: 72% ;
-          left: 9%;
-          text-align:center;
-          font-size:2.1vw;
-          color:rgb(186, 134, 56);
+          top: 72%;
+          left: 17%;
+          text-align: center;
+          font-size: 1.6vw;
+          color: rgb(186, 134, 56);
           position: relative;
-          line-height:.7;
+          line-height: .7;
           z-index: 10002;
           font-family: 'Prompt', sans-serif;
         }

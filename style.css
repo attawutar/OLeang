@@ -92,7 +92,13 @@ body {
     height: 80%;
     position: absolute;
   }
-
+  .bgthai{
+    width: 100%;
+    height: 100%;
+    top:-20%;
+    position: relative;
+    z-index: 9999;
+  }
   .bg{
     width: 100%;
     height: 100%;
@@ -102,6 +108,7 @@ body {
   .car{
     width: 13%;
     left: 47%;
+    top: 62%;
     position: absolute;
     z-index: 10005;
   }
@@ -128,8 +135,8 @@ body {
     z-index: 10001;
   }
 
-  .bubbletext {
-    top: 68% ;
+  .bubbleword p {
+    top: 80% ;
     left: 15%;
     text-align:center;
     font-size:0.8vw;
