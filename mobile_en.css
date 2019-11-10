@@ -1,4 +1,4 @@
-@font-face{
+@font-face {
   font-family: "THSarabunNew";
   src: url("font/THSarabunNew.ttf");
 }
@@ -18,12 +18,11 @@ body {
   margin: 0 auto;
   width: 100%;
   font-family: "THSarabunNew";
-  font-size: 1.3vw;
+  font-size: 3vw;
 }
-.pageweb {
+.pageweb{
   overflow-x: hidden;
 }
-
 /* link hompage */
 #homepage {
   width: 50px;
@@ -68,14 +67,6 @@ h1 {
   z-index: 102;
   bottom: 17.5%;
   left: 7.5%;
-  -webkit-animation:linear infinite alternate;
-  -webkit-animation-name: swing;
-  -webkit-animation-duration: 15s;
-}
-@-webkit-keyframes swing {
-  0% { transform: rotate(0deg)}
-  50%{ transform: rotate(180deg)}
-  100%{ transform: rotate(360deg)}
 }
 
 .picture-ground:nth-child(3) img {
@@ -92,14 +83,6 @@ h1 {
   top: 50%;
   z-index: 99;
   left: 3%;
-  -webkit-animation:linear infinite alternate;
-  -webkit-animation-name: cloud1;
-  -webkit-animation-duration: 15s;
-}
-@-webkit-keyframes cloud1 {
-  0% { left: 3%;}
-  50%{ left : 12%;}
-  100%{ left: 25%;}
 }
 
 .picture-ground:nth-child(5) img {
@@ -108,14 +91,6 @@ h1 {
   top: 20%;
   z-index: 99;
   left: 50%;
-  -webkit-animation:linear infinite alternate;
-  -webkit-animation-name: cloud2;
-  -webkit-animation-duration: 35s;
-}
-@-webkit-keyframes cloud2 {
-  0% { left: 35%;}
-  50%{ left : 50%;}
-  100%{ left: 65%;}
 }
 
 .picture-ground:nth-child(6) img {
@@ -124,14 +99,6 @@ h1 {
   top: 20%;
   z-index: 98;
   left: 20%;
-  -webkit-animation:linear infinite alternate;
-  -webkit-animation-name: cloud3;
-  -webkit-animation-duration: 15s;
-}
-@-webkit-keyframes cloud3 {
-  0% { left: 20%;}
-  50%{ left : 30%;}
-  100%{ left: 40%;}
 }
 
 .picture-ground:nth-child(7) img {
@@ -148,14 +115,6 @@ h1 {
   top: 35%;
   z-index: 98;
   left: 80%;
-  -webkit-animation:linear infinite alternate;
-  -webkit-animation-name: cloud4;
-  -webkit-animation-duration: 10s;
-}
-@-webkit-keyframes cloud4 {
-  0% { left: 70%;}
-  50%{ left : 80%;}
-  100%{ left: 90%;}
 }
 
 .picture-ground:nth-child(9) img {
@@ -164,14 +123,6 @@ h1 {
   top: 70%;
   z-index: 98;
   left: 90%;
-  -webkit-animation:linear infinite alternate;
-  -webkit-animation-name: cloud5;
-  -webkit-animation-duration: 25s;
-}
-@-webkit-keyframes cloud5 {
-  0% { left: 20%;}
-  50%{ left : 30%;}
-  100%{ left: 40%;}
 }
 
 .picture-ground:nth-child(10) img {
@@ -180,14 +131,6 @@ h1 {
   top: 25%;
   z-index: 98;
   left: 15%;
-  -webkit-animation:linear infinite alternate;
-  -webkit-animation-name: cloud6;
-  -webkit-animation-duration: 20s;
-}
-@-webkit-keyframes cloud6 {
-  0% { left: 45%;}
-  50%{ left : 60%;}
-  100%{ left: 75%;}
 }
 
 .picture-ground:nth-child(11) img {
@@ -196,29 +139,12 @@ h1 {
   top: 70%;
   z-index: 98;
   left: 25%;
-  -webkit-animation:linear infinite alternate;
-  -webkit-animation-name: cloud7;
-  -webkit-animation-duration: 30s;
 }
-@-webkit-keyframes cloud7 {
-  0% { left: 70%;}
-  50%{ left : 80%;}
-  100%{ left: 90%;}
-}
-
 .picture-ground:nth-child(12) img {
   position: absolute;
   width: 7%;
   left: 43.5%;
   top: 87%;
-  -webkit-animation: ease-in-out infinite;
-  -webkit-animation-name: bus;
-  -webkit-animation-duration: 10s;
-}
-@-webkit-keyframes bus {
-  0% { left: -10%}
-  50% { left: 44%}
-  100%{ left: 105%}
 }
 
 /* river */
@@ -237,14 +163,6 @@ h1 {
   top: 40%;
   left: 15%;
   z-index: 100;
-  -webkit-animation: linear infinite alternate;
-  -webkit-animation-name: water1;
-  -webkit-animation-duration: 15s;
-}
-@-webkit-keyframes water1 {
-  0% { left: 15%;}
-  50%{ left : 30%;}
-  100%{ left: 45%;}
 }
 
 .picture-river:nth-child(2) img {
@@ -253,36 +171,20 @@ h1 {
   top: 65%;
   left: 35%;
   z-index: 100;
-  -webkit-animation: linear infinite alternate;
-  -webkit-animation-name: water2;
-  -webkit-animation-duration: 25s;
-}
-@-webkit-keyframes water2 {
-  0% { left: 25%;}
-  50%{ left : 35%;}
-  100%{ left: 45%;}
 }
 
 .picture-river:nth-child(3) img {
   position: absolute;
   width: 15%;
   top: 55%;
-  right: 60%;
+  left: 60%;
   z-index: 100;
-  -webkit-animation: linear infinite alternate;
-  -webkit-animation-name: water3;
-  -webkit-animation-duration: 10s;
-}
-@-webkit-keyframes water3 {
-  0% { right: 10%;}
-  50%{ right : 20%;}
-  100%{ right: 30%;}
 }
 
 /*---------------- layer 1 ----------------*/
 .layer1 {
   width: 100%;
-  height: 58vw;
+  height: 220vw;
   max-width: 100%;
   margin: 0 auto;
   position: relative;
@@ -290,61 +192,61 @@ h1 {
 
 .back-layer1:nth-child(1) img {
   position: absolute;
-  width: 11%;
+  width: 16%;
   margin-left: -2%;
-  top: 10%;
+  top: 71%;
 }
 
 .back-layer1:nth-child(2) img {
   position: absolute;
-  width: 11%;
+  width: 14%;
   margin-left: -1%;
-  top: 30%;
+  top: 79%;
 }
 
 .back-layer1:nth-child(3) img {
   position: absolute;
-  width: 49%;
-  z-index: 101;
+  width: 100%;
+  z-index: 1;
   right: 0%;
-  top: 2%;
+  top: 19%;
 }
 
 .back-layer1:nth-child(4) img {
   position: absolute;
   width: 6%;
-  left: 2%;
-  top: 52%;
+  left: 6%;
+  top: 90%;
 }
 
 .back-layer1:nth-child(5) img {
   position: absolute;
   width: 6%;
-  left: 9%;
-  top: 52%;
+  left: 14%;
+  top: 90%;
 }
 
 .back-layer1:nth-child(6) img {
   position: absolute;
-  width: 30%;
-  left: 25.3%;
+  width: 66%;
+  left: 34%;
   z-index: 100;
-  top: 86%;
+  top: 96%;
 }
 
 .back-layer1:nth-child(7) img {
   position: absolute;
-  width: 6%;
-  left: 29.5%;
-  z-index: 1;
-  top: 79.7%;
+  width: 13%;
+  left: 41.5%;
+  z-index: 101;
+  top: 92.5%;
 }
 
 .back-layer1:nth-child(8) img {
   position: absolute;
-  width: 10%;
-  left: 20%;
-  top: 18%;
+  width: 20%;
+  left: 21%;
+  top: 13%;
 }
 
 /* text layer1*/
@@ -352,33 +254,37 @@ h1 {
 .text-layer1 {
   position: absolute;
   z-index: 100;
-  width: 30vw;
-  height: 50vw;
-  right: 50vw;
+  width: 80%;
+  height: 50%;
+  right: 10%;
   color: #1b1464;
-  top: 1%;
+  top: 3%;
 }
 
 .text-layer1 h2 {
-  font-size: 2.8vw;
+  font-size: 6vw;
   font-family: "Chonburi-Regular";
-  margin-left: 30%;
+  margin-top: 0%;
+  position: absolute;
+  right: 26%;
+  top: 5%;
 }
 .text-layer1 h3 {
-  margin-left: 40%;
-  margin-top: 0%;
+  margin-left: 46%;
+  margin-top: 31%;
 }
 .text-layer1 p {
   position: absolute;
-  margin: 10%;
-  top: 30%;
+  margin-left: 12%;
+  top: 127%;
+  right: -9%;
 }
 
 /*---------------- layer 2 ----------------*/
 
 .layer2 {
   width: 100%;
-  height: 43vw;
+  height: 180vw;
   max-width: 100%;
   margin: 0 auto;
   position: relative;
@@ -386,149 +292,127 @@ h1 {
 
 .back-layer2:nth-child(1) img {
   position: absolute;
-  width: 50%;
-  z-index: 101;
+  width: 100%;
+  top: 17%;
+  z-index: 1;
 }
 
 .back-layer2:nth-child(2) img {
   position: absolute;
-  width: 11%;
-  right: 7%;
-  top: 5%;
+  width: 16%;
+  left: 13%;
+  top: 79%;
 }
 
 .back-layer2:nth-child(3) img {
   position: absolute;
-  width: 8%;
-  top: -10%;
-  right: 19%;
+  width: 17%;
+  top: -1%;
+  right: 17%;
 }
 
 .back-layer2:nth-child(4) img {
   position: absolute;
-  width: 11%;
-  top: 31%;
-  right: 0%;
+  width: 17%;
+  top: 9%;
+  right: 3%;
 }
 
 .back-layer2:nth-child(5) img {
   position: absolute;
-  width: 10%;
-  top: 60%;
-  right: 41%;
-  z-index: 100;
+  width: 18%;
+  top: 10.5%;
+  right: 80%;
+  z-index: 0;
 }
 
 .back-layer2:nth-child(6) img {
   position: absolute;
-  width: 42%;
-  top: 70%;
+  width: 65%;
+  top: 80%;
   right: 0%;
 }
 /* wheel */
 .back-layer2:nth-child(7) img {
   position: absolute;
-  width: 3%;
-  top: 94%;
-  right: 37%;
-  -webkit-animation:ease-in-out infinite;
-  -webkit-animation-name: wheel;
-  -webkit-animation-duration: 3s;
+  width: 5%;
+  top: 89.5%;
+  right: 58%;
 }
 
 .back-layer2:nth-child(8) img {
   position: absolute;
-  width: 5%;
-  top: 90%;
-  right: 30%;
-  -webkit-animation:ease-in-out infinite;
-  -webkit-animation-name: wheel;
-  -webkit-animation-duration: 3s;
+  width: 8%;
+  top: 88%;
+  right: 48%;
 }
 .back-layer2:nth-child(9) img {
   position: absolute;
-  width: 5%;
-  top: 90%;
-  right: 24%;
-  -webkit-animation:ease-in-out infinite;
-  -webkit-animation-name: wheel;
-  -webkit-animation-duration: 3s;
+  width: 8%;
+  top: 88%;
+  right: 39%;
 }
 .back-layer2:nth-child(10) img {
   position: absolute;
-  width: 5%;
-  top: 90%;
-  right: 17%;
-  -webkit-animation:ease-in-out infinite;
-  -webkit-animation-name: wheel;
-  -webkit-animation-duration: 3s;
+  width: 8%;
+  top: 88%;
+  right: 23%;
 }
 .back-layer2:nth-child(11) img {
   position: absolute;
-  width: 5%;
-  top: 90%;
-  right: 11%;
-  -webkit-animation:ease-in-out infinite;
-  -webkit-animation-name: wheel;
-  -webkit-animation-duration: 3s;
+  width: 8%;
+  top: 88%;
+  right: 14%;
 }
 .back-layer2:nth-child(12) img {
   position: absolute;
-  width: 3%;
-  top: 94%;
-  right: 6.5%;
-  -webkit-animation:ease-in-out infinite;
-  -webkit-animation-name: wheel;
-  -webkit-animation-duration: 3s;
+  width: 5%;
+  top: 89.5%;
+  right: 8.5%;
 }
 .back-layer2:nth-child(13) img {
   position: absolute;
-  width: 3%;
-  top: 94%;
+  width: 5%;
+  top: 89.5%;
   right: 3%;
-  -webkit-animation:ease-in-out infinite;
-  -webkit-animation-name: wheel;
-  -webkit-animation-duration: 3s;
-}
-@-webkit-keyframes wheel {
-  0% { transform: rotate(0deg)}
-  50%{ transform: rotate(180deg)}
-  100%{ transform: rotate(360deg)}
 }
 
 /*  */
 .back-layer2:nth-child(14) img {
   position: absolute;
-  width: 38%;
-  top: 88%;
+  width: 63%;
+  top: 87%;
   right: 6%;
 }
 /* text layer2*/
 .text-layer2 {
   position: absolute;
   z-index: 100;
-  width: 28vw;
+  width: 80%;
   height: 45vw;
-  right: 19vw;
+  right: 8%;
   color: #1b1464;
   top: 1%;
 }
 
 .text-layer2 h2 {
-  font-size: 3vw;
+  font-size: 6vw;
   font-family: "Chonburi-Regular";
   margin-top: 0%;
+  position: absolute;
+  right: 19%;
+  top: 13%;
 }
 
 .text-layer2 p {
   position: absolute;
-  top: 20%;
+  top: 243%;
 }
 
 /*---------------- layer 3 ----------------*/
 .layer3 {
   width: 100%;
-  height: 58vw;
+  height: 130vw;
   max-width: 100%;
   margin: 0 auto;
   position: relative;
@@ -543,62 +427,60 @@ h1 {
 .back-layer3:nth-child(2) img {
   position: absolute;
   width: 15%;
-  top: 19%;
+  top: 63%;
   left: 6%;
 }
 
 .back-layer3:nth-child(3) img {
   position: absolute;
   width: 15%;
-  top: 57%;
+  top: 78%;
   left: 23%;
 }
 
 .back-layer3:nth-child(4) img {
   position: absolute;
   width: 12%;
-  top: 27%;
+  top: 67%;
   left: 47%;
 }
 
 .back-layer3:nth-child(5) img {
   position: absolute;
   width: 15%;
-  top: 37%;
+  top: 73%;
   left: 77%;
 }
 
 /* text layer3*/
 .back-layer3:nth-child(6) {
   position: absolute;
-  top: 11%;
-  left: 25%;
-  font-size: 2vw;
+  top: -3%;
+  left: 14%;
+  font-size: 4.5vw;
+  width: 80%;
   font-family: "Chonburi-Regular";
   color: #1b1464;
-
 }
 .back-layer3:nth-child(7) {
   position: absolute;
-  font-size: 1.15vw;
-  top: 28%;
-  display: flex;
+  font-size: 3vw;
+  top: 20%;
+  display: inline;
   left: 10%;
   color: #1b1464;
-
 }
 .back-layer3 .box-layer3 {
-  width: 30%;
-  padding-left: 10%;
+  width: 80%;
+  padding-left: 4%;
 }
 .back-layer3 .box-layer3 .text-layer3 {
-  background-color: #f3b07c;
+  background-color: #f4d09f;
   border-radius: 1em;
   font-family: "Chonburi-Regular";
   color: #1b1464;
-  width: 25%;
+  width: 22%;
   padding: 1em;
-
 }
 
 /*---------------- layer 4 ----------------*/
