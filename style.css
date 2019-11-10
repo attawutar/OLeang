@@ -131,6 +131,7 @@ body {
   .bubble{
     width: 130%;
     height: 130%;
+    top: -1vh;
     position: relative;
     z-index: 10001;
   }

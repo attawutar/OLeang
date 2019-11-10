@@ -96,14 +96,14 @@
         .bgthai{
           width: 100%;
           height: 100%; 
-          top: 0vh;
+          top: 8vh;
           position: relative;
           z-index: 9999;
         }
         .bg{
           width: 100vw;
           height: 100%;
-
+          top: 8vh;
           position: relative;
           z-index: 9999;
         }
@@ -135,16 +135,16 @@
         .bubble{
           width: 130%;
           height: 130%;
-          top: -15vh;
+          top: -9vh;
           position: relative;
           z-index: 10001;
         }
       
         .bubbleword p {
-          top: -12%;
+          top: 21%;
           left: 15%;
           text-align: center;
-          font-size: 1.5vw;
+          font-size: 2vw;
           color: rgb(186, 134, 56);
           position: relative;
           line-height: .7;
@@ -390,7 +390,7 @@
       }
       
         .bubbletext2 {
-          top: -17%;
+          top: 14%;
           left: 15%;
           text-align: center;
           font-size: 1.6vw;
@@ -735,14 +735,14 @@ z-index: 10000;
 .bg{
   width: 100vw;
   height: 100%;
-  top: 30vw;
+  top: 39vw;
   position: relative;
   z-index: 9999;
 }
 .bgthai{
   width: 100%;
   height: 100%; 
-  top: 20vh;
+  top: 22vh;
   position: relative;
   z-index: 9999;
 }
@@ -815,7 +815,7 @@ z-index: 10000;
 }
 
 .arrow{
-  margin-top: 16%;
+  margin-top: 11%;
   left: 91%;
   width: 21%;
   z-index: 10003;
@@ -837,7 +837,7 @@ z-index: 10000;
   font-family: 'Prompt', sans-serif;
 }
 }
-@media only screen and (max-width: 321px){
+@media only screen and (max-width: 375px){
   .homebutton{
     position: absolute;
     width: 9%;
@@ -849,10 +849,24 @@ z-index: 10000;
     -o-animation: rotating 2s linear infinite;
     animation: rotating 2s linear infinite;
   }
+  .bg{
+    width: 100vw;
+    height: 100%;
+    top: 47.5vw;
+    position: relative;
+    z-index: 9999;
+  }
+  .bgthai{
+    width: 100%;
+    height: 100%; 
+    top: 22vh;
+    position: relative;
+    z-index: 9999;
+  }
   .car {
     width: 13%;
     left: 47%;
-    top: 80%;
+    top: 81%;
     position: absolute;
     z-index: 10005;
 }
@@ -863,7 +877,7 @@ z-index: 10000;
 }
 .water{
 position: absolute;
-top: 86%;
+top: 87%;
 width: 100%;
 z-index: 10000;
 -webkit-animation: linear infinite alternate;
@@ -883,7 +897,7 @@ z-index: 10000;
 
 .water2{
   position: absolute;
-  top: 86%;
+  top: 87%;
   width: 100%;
   z-index: 10001;
   -webkit-animation:linear infinite alternate;
@@ -901,7 +915,7 @@ z-index: 10000;
 }
 .water3{
   position: absolute;
-  top: 88%;
+  top: 91%;
   left: 0%;
   width: 100%;
   z-index: 10000;
@@ -912,7 +926,7 @@ z-index: 10000;
 
 .water4{
   position: absolute;
-  top: 86%;
+  top: 89%;
   width: 100%;
   z-index: 10000;
   -webkit-animation:linear infinite alternate;
@@ -921,7 +935,7 @@ z-index: 10000;
 }
 .boat{
   position: absolute;
-  top: 85%;
+  top: 86%;
   width: 50%;
   z-index: 10001;
   -webkit-animation:linear infinite alternate;
@@ -930,7 +944,7 @@ z-index: 10000;
 }
 .boat2{
   position: absolute;
-  top: 86%;
+  top: 87%;
   width: 50%;
   z-index: 10001;
   -webkit-animation:linear infinite alternate;
@@ -951,7 +965,7 @@ z-index: 10000;
 
 .water5{
   position: absolute;
-  top: 86%;
+  top: 87%;
   width: 100%;
   z-index: 10000;
   -webkit-animation:linear infinite alternate;
@@ -972,7 +986,7 @@ z-index: 10000;
 }
 .water6{
   position: absolute;
-  top: 84%;
+  top: 85%;
   left: 15%;
   width: 80%;
   z-index: 10000;
@@ -985,9 +999,72 @@ z-index: 10000;
   50%{ left : 20%;}
   100%{ left: 13%;}
 }   
-
+@-webkit-keyframes bouncebubble1 {
+  0% { top: 55%;}
+  50%{ top : 54%;}
+  100%{ top: 55%;}
 }
-@media only screen and (max-width: 375px){
+
+.bubbleword{
+width: 35%;
+height: 15%;
+left: 31%;
+top: 55%;
+position: absolute;
+-webkit-animation:linear infinite alternate;
+-webkit-animation-name: bouncebubble1;
+-webkit-animation-duration: 1s;
+}
+
+.bubble{
+width: 130%;
+height: 130%;
+top: 5vh;
+position: relative;
+z-index: 10001;
+}
+
+.bubbleword p {
+top: 107%;
+left: 15%;
+text-align: center;
+font-size: 2vw;
+color: rgb(186, 134, 56);
+position: relative;
+line-height: .7;
+z-index: 10002;
+font-family: 'Prompt', sans-serif;
+}
+@-webkit-keyframes arrow {
+0% { top: 97%;}
+50%{ top : 110%;}
+100%{ top: 97%;}
+}
+
+.arrow{
+margin-top: 28%;
+left: 91%;
+width: 21%;
+z-index: 10003;
+position: absolute;
+-webkit-animation:linear infinite alternate;
+-webkit-animation-name: arrow;
+-webkit-animation-duration: 1s;
+}
+
+.bubbletext2 {
+top: 102%;
+left: 15%;
+text-align: center;
+font-size: 1.6vw;
+color: rgb(186, 134, 56);
+position: relative;
+line-height: .7;
+z-index: 10002;
+font-family: 'Prompt', sans-serif;
+}
+}
+@media only screen and (max-width: 375px) and (max-height: 667px){
   .homebutton{
     position: absolute;
     width: 9%;
@@ -1002,7 +1079,7 @@ z-index: 10000;
   .bg{
     width: 100vw;
     height: 100%;
-    top: 34vw;
+    top: 35.5vw;
     position: relative;
     z-index: 9999;
   }
@@ -1169,13 +1246,13 @@ position: absolute;
 .bubble{
 width: 130%;
 height: 130%;
-top: 3vh;
+top: 2vh;
 position: relative;
 z-index: 10001;
 }
 
 .bubbleword p {
-top: 92%;
+top: 87%;
 left: 15%;
 text-align: center;
 font-size: 2vw;
@@ -1192,7 +1269,7 @@ font-family: 'Prompt', sans-serif;
 }
 
 .arrow{
-margin-top: 16%;
+margin-top: 12%;
 left: 91%;
 width: 21%;
 z-index: 10003;
@@ -1203,7 +1280,7 @@ position: absolute;
 }
 
 .bubbletext2 {
-top: 88%;
+top: 85%;
 left: 15%;
 text-align: center;
 font-size: 1.6vw;
@@ -1366,14 +1443,14 @@ z-index: 10000;
 .bg{
   width: 100vw;
   height: 100%;
-  top: 40vw;
+  top: 34vw;
   position: relative;
   z-index: 9999;
 }
 .bgthai{
   width: 100%;
   height: 100%; 
-  top: 20vh;
+  top: 19vh;
   position: relative;
   z-index: 9999;
 }
@@ -1423,13 +1500,13 @@ z-index: 10000;
 .bubble{
   width: 130%;
   height: 130%;
-  top: 3vh;
+  top: 2vh;
   position: relative;
   z-index: 10001;
 }
 
 .bubbleword p {
-  top: 92%;
+  top: 88%;
   left: 15%;
   text-align: center;
   font-size: 2vw;
@@ -1446,7 +1523,7 @@ z-index: 10000;
 }
 
 .arrow{
-  margin-top: 16%;
+  margin-top: 13%;
   left: 91%;
   width: 21%;
   z-index: 10003;
