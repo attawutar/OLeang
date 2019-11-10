@@ -99,6 +99,9 @@
                     let r = window.pageYOffset;
                     console.log(r);
                     tractor.style.left = `${(r/18)}%`;
+                    if(r > 1500){
+                        tractor.style.display = `none`;
+                    }
                 } window.addEventListener("scroll", runcar);
 
                 function talewrotate() {
