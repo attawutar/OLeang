@@ -159,7 +159,7 @@
       }
       
         .arrow{
-          margin-top: -28%;
+          margin-top: -18%;
           left: 91%;
           width: 21%;
           z-index: 10003;
@@ -815,7 +815,7 @@ z-index: 10000;
 }
 
 .arrow{
-  margin-top: 11%;
+  margin-top: 20%;
   left: 91%;
   width: 21%;
   z-index: 10003;
@@ -1042,7 +1042,7 @@ font-family: 'Prompt', sans-serif;
 }
 
 .arrow{
-margin-top: 28%;
+margin-top: 40%;
 left: 91%;
 width: 21%;
 z-index: 10003;
@@ -1269,7 +1269,7 @@ font-family: 'Prompt', sans-serif;
 }
 
 .arrow{
-margin-top: 12%;
+margin-top: 24%;
 left: 91%;
 width: 21%;
 z-index: 10003;
@@ -1517,13 +1517,13 @@ z-index: 10000;
   font-family: 'Prompt', sans-serif;
 }
 @-webkit-keyframes arrow {
-  0% { top: 97%;}
-  50%{ top : 110%;}
-  100%{ top: 97%;}
+  0% { top: 110%;}
+  50%{ top : 120%;}
+  100%{ top: 110%;}
 }
 
 .arrow{
-  margin-top: 13%;
+  margin-top: 12%;
   left: 91%;
   width: 21%;
   z-index: 10003;

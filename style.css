@@ -155,7 +155,7 @@ body {
 }
 
   .arrow{
-    top: 106%;
+    margin-top: 12%;
     left: 87%;
     width: 20%;
     z-index: 10003;
