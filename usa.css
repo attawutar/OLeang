@@ -19,7 +19,7 @@ body {
   margin: 0 auto;
   width: 100%;
   font-family: "THSarabunNew";
-  font-size: 1.15vw;
+  font-size: 1.2vw;
   color: #666666;
 }
 .pageweb {
@@ -473,7 +473,7 @@ h1 {
 .back-layer4:nth-child(2) img {
   position: absolute;
   width: 47%;
-  top: 52.5%;
+  top: 52.6%;
   z-index: 11;
 }
 
@@ -514,7 +514,7 @@ h1 {
   position: absolute;
   font-family: "Chonburi-Regular";
   width: 30%;
-  top: 86%;
+  top: 88%;
   left: 51%;
   z-index: 10;
   font-size: 1.4vw;

@@ -13,7 +13,7 @@
 <body>
     <div class="pageweb">
         <div id="homepage">
-            <a href="index.html"><img src="picture/page-japan/world.svg"></a>
+            <a href="index.html#three"><img src="picture/page-japan/world.svg"></a>
         </div>
 
         <div class="ground">
@@ -45,7 +45,7 @@
             <div class="back-layer1"><img src="picture/page-england/soldier.svg"></div>
             <div class="back-layer1"><img src="picture/page-england/soldier.svg"></div>
             <div class="back-layer1"><img src="picture/page-england/road.svg"></div>
-            <div class="back-layer1"><img src="picture/page-england/bus.svg" id="bus"></div>
+            <div class="back-layer1"><img src="picture/page-england/bus.svg" id="bus" id="mobile_bus"></div>
             <div class="back-layer1"><img src="picture/page-england/clock.svg"></div>
             <div class="text-layer1">
                 <h2>การต้อนรับ <br>
@@ -165,7 +165,7 @@
 
         function movebus() {
             let r = window.pageYOffset;
-            bus.style.left = `${(r / 30)}%`;
+            bus.style.left = `${(r / 25)}%`;
         } window.addEventListener("scroll", movebus);
 
     </script>

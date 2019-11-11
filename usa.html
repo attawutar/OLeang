@@ -13,7 +13,7 @@
 <body>
     <div class="pageweb">
         <div id="homepage">
-            <a href="index.html"><img src="picture/page-japan/world.svg"></a>
+            <a href="index.html#four"><img src="picture/page-japan/world.svg"></a>
         </div>
         <div class="ground">
             <div class="picture-ground"><img src="picture/page-usa/plan.svg"></div>
@@ -31,7 +31,7 @@
             <div class="back-layer1"><img src="picture/page-usa/post-01.svg"></div>
             <div class="back-layer1"><img src="picture/page-usa/paper.svg"></div>
             <div class="back-layer1"><img src="picture/page-usa/post-02.svg"></div>
-            <div class="back-layer1"><img src="picture/page-usa/prop-back.svg" id="shadow"></div>
+            <div class="back-layer1"><img src="picture/page-usa/prop-back.svg"></div>
             <div class="back-layer1"><img src="picture/page-usa/prop.svg"></div>
             <div class="back-layer1"><img src="picture/page-usa/country-01.svg"></div>
             <div class="back-layer1"><img src="picture/page-usa/cloud-15.svg"></div>
@@ -173,11 +173,6 @@
             let r = window.pageYOffset;
             car.style.left = `${(r / 90)}%`;
         } window.addEventListener("scroll", movecar);
-
-        function moveshadow() {
-            let r = window.pageYOffset;
-            shadow.style.left = `${(r / 150)}%`;
-        } window.addEventListener("scroll", moveshadow);
 
     </script>
 </body>

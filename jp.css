@@ -18,12 +18,8 @@ body {
   width: 100%;
   font-family: "THSarabunNew";
   font-size: 1.25vw;
-}
-
-.pageweb {
   overflow-x: hidden;
 }
-
 /* link hompage */
 #homepage {
   width: 50px;
@@ -67,14 +63,20 @@ h1 {
   top: 61%;
   right: 4%;
   z-index: 98;
-  -webkit-animation:linear infinite alternate;
+  -webkit-animation: linear infinite alternate;
   -webkit-animation-name: cloud1;
   -webkit-animation-duration: 10s;
 }
 @-webkit-keyframes cloud1 {
-  0% { right: 10%;}
-  50%{ right : 5%;}
-  100%{ right: 10%;}
+  0% {
+    right: 10%;
+  }
+  50% {
+    right: 5%;
+  }
+  100% {
+    right: 10%;
+  }
 }
 
 .picture-ground:nth-child(3) img {
@@ -83,13 +85,17 @@ h1 {
   top: 69%;
   right: 25%;
   z-index: 100;
-  -webkit-animation:ease-in-out infinite;
+  -webkit-animation: ease-in-out infinite;
   -webkit-animation-name: cloud2;
   -webkit-animation-duration: 25s;
 }
 @-webkit-keyframes cloud2 {
-  0% { right: -25%;}
-  100%{ right: 110%;}
+  0% {
+    right: -25%;
+  }
+  100% {
+    right: 110%;
+  }
 }
 
 .picture-ground:nth-child(4) img {
@@ -100,21 +106,26 @@ h1 {
   z-index: 100;
 }
 
-
 .picture-ground:nth-child(5) img {
   position: absolute;
   width: 50%;
   top: 24%;
   right: 40%;
   z-index: 100;
-  -webkit-animation:linear infinite alternate;
+  -webkit-animation: linear infinite alternate;
   -webkit-animation-name: cloudwhite;
   -webkit-animation-duration: 10s;
 }
 @-webkit-keyframes cloudwhite {
-  0% { right: 50%;}
-  50%{ right : 45%;}
-  100%{ right: 50%;}
+  0% {
+    right: 50%;
+  }
+  50% {
+    right: 45%;
+  }
+  100% {
+    right: 50%;
+  }
 }
 
 .picture-ground:nth-child(6) img {
@@ -123,14 +134,20 @@ h1 {
   top: 14%;
   right: 5%;
   z-index: 100;
-  -webkit-animation:linear infinite alternate;
+  -webkit-animation: linear infinite alternate;
   -webkit-animation-name: cloudpink1;
   -webkit-animation-duration: 8s;
 }
 @-webkit-keyframes cloudpink1 {
-  0% { right: 0%;}
-  50%{ right : 10%;}
-  100%{ right: 12%;}
+  0% {
+    right: 0%;
+  }
+  50% {
+    right: 10%;
+  }
+  100% {
+    right: 12%;
+  }
 }
 
 .picture-ground:nth-child(7) img {
@@ -139,14 +156,20 @@ h1 {
   top: 36%;
   right: 13%;
   z-index: 100;
-  -webkit-animation:linear infinite alternate;
+  -webkit-animation: linear infinite alternate;
   -webkit-animation-name: cloudpink2;
   -webkit-animation-duration: 8s;
 }
 @-webkit-keyframes cloudpink2 {
-  0% { right: 16%;}
-  50%{ right : 10%;}
-  100%{ right: 16%;}
+  0% {
+    right: 16%;
+  }
+  50% {
+    right: 10%;
+  }
+  100% {
+    right: 16%;
+  }
 }
 
 .picture-ground:nth-child(8) img {
@@ -189,13 +212,17 @@ h1 {
   top: 60%;
   left: 10%;
   z-index: 100;
-  -webkit-animation:ease-in-out infinite;
+  -webkit-animation: ease-in-out infinite;
   -webkit-animation-name: fish1;
   -webkit-animation-duration: 35s;
 }
 @-webkit-keyframes fish1 {
-  0% { left: -10%;}
-  100%{ left: 100%;}
+  0% {
+    left: -10%;
+  }
+  100% {
+    left: 100%;
+  }
 }
 
 .picture-river:nth-child(4) img {
@@ -204,13 +231,17 @@ h1 {
   top: 20%;
   left: 6%;
   z-index: 100;
-  -webkit-animation:ease-in-out infinite;
+  -webkit-animation: ease-in-out infinite;
   -webkit-animation-name: fish2;
   -webkit-animation-duration: 20s;
 }
 @-webkit-keyframes fish2 {
-  0% { left: -5%;}
-  100%{ left: 110%;}
+  0% {
+    left: -5%;
+  }
+  100% {
+    left: 110%;
+  }
 }
 
 .picture-river:nth-child(5) img {
@@ -219,13 +250,17 @@ h1 {
   top: 15%;
   left: 45%;
   z-index: 100;
-  -webkit-animation:ease-in-out infinite;
+  -webkit-animation: ease-in-out infinite;
   -webkit-animation-name: fish3;
   -webkit-animation-duration: 50s;
 }
 @-webkit-keyframes fish3 {
-  0% { left: -5%;}
-  100%{ left: 110%;}
+  0% {
+    left: -5%;
+  }
+  100% {
+    left: 110%;
+  }
 }
 
 .picture-river:nth-child(6) img {
@@ -234,13 +269,17 @@ h1 {
   top: 30%;
   left: 75%;
   z-index: 100;
-  -webkit-animation:ease-in-out infinite;
+  -webkit-animation: ease-in-out infinite;
   -webkit-animation-name: fish4;
   -webkit-animation-duration: 25s;
 }
 @-webkit-keyframes fish4 {
-  0% { left: -5%;}
-  100%{ left: 110%;}
+  0% {
+    left: -5%;
+  }
+  100% {
+    left: 110%;
+  }
 }
 
 .picture-river:nth-child(7) img {
@@ -249,13 +288,17 @@ h1 {
   top: 10%;
   right: 5%;
   z-index: 100;
-  -webkit-animation:ease-in-out infinite;
+  -webkit-animation: ease-in-out infinite;
   -webkit-animation-name: fish5;
   -webkit-animation-duration: 25s;
 }
 @-webkit-keyframes fish5 {
-  0% { right: -5%;}
-  100%{ right: 110%;}
+  0% {
+    right: -5%;
+  }
+  100% {
+    right: 110%;
+  }
 }
 
 .picture-river:nth-child(8) img {
@@ -264,13 +307,17 @@ h1 {
   top: 50%;
   right: 50%;
   z-index: 100;
-  -webkit-animation:ease-in-out infinite;
+  -webkit-animation: ease-in-out infinite;
   -webkit-animation-name: fish6;
   -webkit-animation-duration: 50s;
 }
 @-webkit-keyframes fish6 {
-  0% { right: -5%;}
-  100%{ right: 110%;}
+  0% {
+    right: -5%;
+  }
+  100% {
+    right: 110%;
+  }
 }
 
 /* layer 1 */
@@ -360,6 +407,20 @@ h1 {
   margin-left: 10%;
   margin-right: 10%;
   color: #1b1464;
+}
+.back-layer2:nth-child(4) img {
+  position: absolute;
+  width: 100%;
+  bottom: 71%;
+  z-index: 1;
+  display: none;
+}
+.back-layer2:nth-child(5) img {
+  position: absolute;
+  width: 100%;
+  bottom: -15%;
+  z-index: 1;
+  display: none;
 }
 
 /* layer 3 */
