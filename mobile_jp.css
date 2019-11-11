@@ -12,6 +12,9 @@
   font-family: "TIMESBD0";
   src: url("font/TIMESBD0.ttf");
 }
+.pageweb{
+  overflow-x: hidden;
+}
 body {
   background: #efb9be;
   margin: 0 auto;
