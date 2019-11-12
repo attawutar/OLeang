@@ -1518,7 +1518,7 @@ z-index: 10000;
 }
 @-webkit-keyframes arrow {
   0% { top: 110%;}
-  50%{ top : 120%;}
+  50%{ top : 109%;}
   100%{ top: 110%;}
 }
 

@@ -110,7 +110,7 @@ body {
     left: 47%;
     top: 62%;
     position: absolute;
-    z-index: 10005;
+    z-index: 1000;
   }
   @-webkit-keyframes bouncebubble1 {
     0% { top: 36%;}
@@ -150,12 +150,12 @@ body {
 
   @-webkit-keyframes arrow {
     0% { top: 106%;}
-    50%{ top : 130%;}
+    50%{ top : 105%;}
     100%{ top: 106%;}
 }
 
   .arrow{
-    margin-top: 12%;
+    margin-top: -1%;
     left: 87%;
     width: 20%;
     z-index: 10003;
@@ -378,7 +378,7 @@ body {
 }
 
   .bubbletext2 {
-    top: 75% ;
+    top: 67% ;
     left: 15%;
     text-align:center;
     font-size:0.8vw;
@@ -435,6 +435,13 @@ body {
   z-index: 10002;
   font-family: 'Prompt', sans-serif;
 }
+.bridge{
+  position: absolute;
+  top: 60%;
+  left: 27%;
+  width: 50%;
+  z-index: 10000; 
+}
 
 /* USA */
 .fourtopic {
@@ -476,6 +483,7 @@ body {
   z-index: 10002;
   font-family: 'Prompt', sans-serif;
 }
+
 
 
 
