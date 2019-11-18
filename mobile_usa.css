@@ -216,7 +216,7 @@ h1 {
 .text-layer1:nth-child(10) {
   position: absolute;
   width: 51%;
-  top: 71%;
+  top: 70%;
   right: 10%;
   z-index: 10;
 }
@@ -390,7 +390,7 @@ h1 {
   text-align: right;
   color: black;
   position: absolute;
-  top: -177%;
+  top: -180%;
   right: 4%;
 }
 

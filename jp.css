@@ -49,6 +49,7 @@ h1 {
   max-width: 100%;
   margin: 0 auto;
   position: relative;
+  overflow-x: hidden;
 }
 .picture-ground:nth-child(1) img {
   position: absolute;
@@ -187,6 +188,7 @@ h1 {
   height: 15vw;
   max-width: 100%;
   margin: 0 auto;
+  overflow-x: hidden;
   background-image: linear-gradient(#f4879c, #efb9be);
 }
 
@@ -649,4 +651,21 @@ h1 {
   top: 17%;
   right: 41%;
   z-index: 100;
+}
+/* footer */
+.copyright {
+  position: absolute;
+  background-color: #efb9be;
+  width: 100%;
+  height: 7.5vw;
+  z-index: 100;
+}
+.copytext {
+  position: absolute;
+  z-index: 100;
+  width: 42vw;
+  font-size: 1vw;
+  color: #000000;
+  right: 2vw;
+  font-family: "THSarabunNew";
 }
