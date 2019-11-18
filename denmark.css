@@ -431,3 +431,19 @@ h1{
     -webkit-animation-name: cloundfoot;
     -webkit-animation-duration: 20s;
 }
+.copyright{
+    position: absolute;
+    background-color: #6B5A3A;
+    width: 100%;
+    height: 7.5vw;
+    z-index: 100;
+}
+.copytext {
+    position: absolute;
+    z-index: 100;
+    width: 42vw;
+    font-size: 1vw;
+    color: #ffffff;
+    left: 55vw;
+    font-family: "THSarabunNew";
+  }
