@@ -78,7 +78,14 @@
           top: 75%;
           z-index: 1000;
         }
-      
+        .bridge{
+          position: absolute;
+          top: 65.5%;
+          left: 27%;
+          width: 50%;
+          z-index: 10000; 
+        }
+        
         .tran{
           position: absolute;
           width: 20%;
@@ -596,6 +603,14 @@
     -o-animation: rotating 2s linear infinite;
     animation: rotating 2s linear infinite;
   }
+  .bridge{
+    position: absolute;
+    top: 77.5%;
+    left: 27%;
+    width: 50%;
+    z-index: 10000; 
+  }
+  
   .car {
     width: 13%;
     left: 47%;
@@ -849,6 +864,14 @@ z-index: 10000;
     -o-animation: rotating 2s linear infinite;
     animation: rotating 2s linear infinite;
   }
+  .bridge{
+    position: absolute;
+    top: 76.5%;
+    left: 27%;
+    width: 50%;
+    z-index: 10000; 
+  }
+  
   .bg{
     width: 100vw;
     height: 100%;
@@ -1076,6 +1099,14 @@ font-family: 'Prompt', sans-serif;
     -o-animation: rotating 2s linear infinite;
     animation: rotating 2s linear infinite;
   }
+  .bridge{
+    position: absolute;
+    top: 75.5%;
+    left: 27%;
+    width: 50%;
+    z-index: 10000; 
+  }
+  
   .bg{
     width: 100vw;
     height: 100%;
@@ -1303,6 +1334,14 @@ font-family: 'Prompt', sans-serif;
     -o-animation: rotating 2s linear infinite;
     animation: rotating 2s linear infinite;
   }
+  .bridge{
+    position: absolute;
+    top: 60%;
+    left: 27%;
+    width: 50%;
+    z-index: 10000; 
+  }
+  
   .car {
     width: 13%;
     left: 47%;
