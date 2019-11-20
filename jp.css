@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+
 @font-face {
   font-family: "THSarabunNew";
   src: url("font/THSarabunNew.ttf");
@@ -86,17 +88,6 @@ h1 {
   top: 69%;
   right: 25%;
   z-index: 100;
-  -webkit-animation: ease-in-out infinite;
-  -webkit-animation-name: cloud2;
-  -webkit-animation-duration: 25s;
-}
-@-webkit-keyframes cloud2 {
-  0% {
-    right: -25%;
-  }
-  100% {
-    right: 110%;
-  }
 }
 
 .picture-ground:nth-child(4) img {
@@ -135,21 +126,8 @@ h1 {
   top: 14%;
   right: 5%;
   z-index: 100;
-  -webkit-animation: linear infinite alternate;
-  -webkit-animation-name: cloudpink1;
-  -webkit-animation-duration: 8s;
 }
-@-webkit-keyframes cloudpink1 {
-  0% {
-    right: 0%;
-  }
-  50% {
-    right: 10%;
-  }
-  100% {
-    right: 12%;
-  }
-}
+
 
 .picture-ground:nth-child(7) img {
   position: absolute;
@@ -498,17 +476,18 @@ h1 {
   margin: 0;
 }
 .items .bg-img {
+  transition: all 0.3s;
   position: absolute;
   width: 12vw;
   height: 6vw;
   background-size: cover;
   background-position: center top;
+  z-index: 50;
 }
-
-.items :hover {
-  width: 20vw;
-  height: 10vw;
-  transition-delay: 0.5s;
+.items .bg-img:hover {
+  box-shadow: 0px 0px 10px #0005;
+  transform: scale(2);
+  z-index: 100;
 }
 
 /* layer 4 */
@@ -655,17 +634,20 @@ h1 {
 /* footer */
 .copyright {
   position: absolute;
-  background-color: #efb9be;
+  background-color: #FDD3BB;
   width: 100%;
-  height: 7.5vw;
+  height: 25vw;
   z-index: 100;
 }
 .copytext {
-  position: absolute;
   z-index: 100;
-  width: 42vw;
-  font-size: 1vw;
-  color: #000000;
-  right: 2vw;
-  font-family: "THSarabunNew";
+  width: 50vw;
+  font-size: 1.2vw;
+  margin-top: 5%;
+  text-align: center;
+  color: #083075;
+  font-family: 'Kanit', sans-serif;
+}
+.logo-footer img {
+  width: 60%;
 }

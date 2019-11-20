@@ -265,8 +265,8 @@ h1 {
 
 .back-layer2:nth-child(2) img {
   position: absolute;
-  width: 29%;
-  top: 8.7%;
+  width: 36%;
+  top: 5.7%;
   left: 0.9%;
   z-index: 10;
 }
