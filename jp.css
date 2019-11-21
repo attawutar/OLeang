@@ -432,7 +432,7 @@ h1 {
 }
 .back-layer3 .text-layer3 {
   background-color: #f2d6d9;
-  border-radius: 1em;
+  border-radius: 0.6em;
   color: #1b1464;
   margin: 3%;
   margin-right: 15%;
@@ -440,7 +440,7 @@ h1 {
 }
 
 .back-layer3 .text-layer3 p {
-  padding: 7px;
+  padding: 4%;
 }
 
 /* gallery */

@@ -535,3 +535,24 @@ h1 {
   right: 45%;
   z-index: 9;
 }
+
+/* footer */
+.copyright {
+  position: absolute;
+  background-color: #95cecb;
+  width: 100%;
+  height: 40vw;
+  z-index: 100;
+}
+.copytext {
+  z-index: 100;
+  width: 100vw;
+  font-size: 1.2vw;
+  margin-top: 5%;
+  text-align: center;
+  color: #083075;
+  font-family: 'Kanit', sans-serif;
+}
+.logo-footer img {
+  width: 50%;
+}

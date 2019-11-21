@@ -1,449 +1,498 @@
-@import url('https://fonts.googleapis.com/css?family=Prompt&display=swap');
-@font-face{
-    font-family: "DBHelvethaica";
-    src: url("font/DBHelvethaicaMonX.ttf")
-  }
-  @font-face{
-    font-family: "Chonburi";
-    src: url("font/Chonburi-Regular.ttf")
-  }
-  @font-face{
-    font-family: "THSarabunNew";
-    src: url("font/THSarabunNew.ttf")
-  }
-body{
-    margin: 0;
-    background-color: rgb(154, 198, 155); 
+@import url("https://fonts.googleapis.com/css?family=Prompt&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+
+@font-face {
+  font-family: "DBHelvethaica";
+  src: url("font/DBHelvethaicaMonX.ttf");
+}
+@font-face {
+  font-family: "Chonburi";
+  src: url("font/Chonburi-Regular.ttf");
+}
+@font-face {
+  font-family: "THSarabunNew";
+  src: url("font/THSarabunNew.ttf");
+}
+body {
+  margin: 0;
+  background-color: rgb(154, 198, 155);
 }
 
 /* homebutton */
 
 #homepage {
-    width: 50px;
-    height: 50px;
-    position: fixed;
-    right: 1em;
-    top: 2%;
-    z-index: 1000;
-  }
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 1em;
+  top: 2%;
+  z-index: 1000;
+}
 
 /* top */
-#toppage{
-    width: 100%;
-    height: 36vw;
-    max-width: 100%;
-    margin: 0 auto;
-    position: relative;
-    background-color: rgba(187,206,149,1);
+#toppage {
+  width: 100%;
+  height: 36vw;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background-color: rgba(187, 206, 149, 1);
 }
 
-.bgtop{
-    position: absolute;
-    width: 100%;
-    bottom: 0%;
-    z-index: 99;
+.bgtop {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  z-index: 99;
 }
 
-h1{
-    position: absolute;
-    color: white;
-    left: 35%;
-    top: 5%;
-    font-size: 6vw;
-    z-index: 100;
+h1 {
+  position: absolute;
+  color: white;
+  left: 35%;
+  top: 5%;
+  font-size: 6vw;
+  z-index: 100;
 }
 
 @-webkit-keyframes cloundtop {
-    0% { left: 0%;}
-    50%{ left : -12%;}
-    100%{ left: 0%;}
+  0% {
+    left: 0%;
+  }
+  50% {
+    left: -12%;
+  }
+  100% {
+    left: 0%;
+  }
 }
 
-.cloudtop{
-    position: absolute;
-    width: 100%;
-    z-index: 98;
-    left: 0%;
-    -webkit-animation:linear infinite alternate;
-    -webkit-animation-name: cloundtop;
-    -webkit-animation-duration: 20s;
+.cloudtop {
+  position: absolute;
+  width: 100%;
+  z-index: 98;
+  left: 0%;
+  -webkit-animation: linear infinite alternate;
+  -webkit-animation-name: cloundtop;
+  -webkit-animation-duration: 20s;
 }
 
 /* river */
 
-#riverzone{
-    position: relative;
-    width: 100%;
-    height: 15vw;
-    max-width: 100%;
-    margin: 0 auto;
+#riverzone {
+  position: relative;
+  width: 100%;
+  height: 15vw;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
-.river{
-    position: absolute;
-    width: 100%;
-    z-index: 99;
+.river {
+  position: absolute;
+  width: 100%;
+  z-index: 99;
 }
 
 @-webkit-keyframes water {
-    0% { left: 0%;}
-    50%{ left : -2%;}
-    100%{ left: 0%;}
+  0% {
+    left: 0%;
+  }
+  50% {
+    left: -2%;
+  }
+  100% {
+    left: 0%;
+  }
 }
 
-.water{
-    position: absolute;
-    width: 100%;
-    z-index: 99;
-    -webkit-animation:linear infinite alternate;
-    -webkit-animation-name: water;
-    -webkit-animation-duration: 10s;
+.water {
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+  -webkit-animation: linear infinite alternate;
+  -webkit-animation-name: water;
+  -webkit-animation-duration: 10s;
 }
 @-webkit-keyframes boatright {
-    0% { left: 60%;}
-    50%{ left : 68%;}
-    100%{ left: 60%;}
+  0% {
+    left: 60%;
+  }
+  50% {
+    left: 68%;
+  }
+  100% {
+    left: 60%;
+  }
 }
 @-webkit-keyframes boatleft {
-    0% { left: 10%;}
-    50%{ left : 2%;}
-    100%{ left: 10%;}
-}
-.boatright{
-    position: absolute;
-    width: 30%;
-    left: 60%;
-    top: 15%;
-    z-index: 100;
-    -webkit-animation:linear infinite alternate;
-    -webkit-animation-name: boatright;
-    -webkit-animation-duration: 15s;
-}
-.boatleft{
-    position: absolute;
-    width: 37%;
+  0% {
     left: 10%;
-    z-index: 100;
-    -webkit-animation:linear infinite alternate;
-    -webkit-animation-name: boatleft;
-    -webkit-animation-duration: 15s;
+  }
+  50% {
+    left: 2%;
+  }
+  100% {
+    left: 10%;
+  }
+}
+.boatright {
+  position: absolute;
+  width: 30%;
+  left: 60%;
+  top: 15%;
+  z-index: 100;
+  -webkit-animation: linear infinite alternate;
+  -webkit-animation-name: boatright;
+  -webkit-animation-duration: 15s;
+}
+.boatleft {
+  position: absolute;
+  width: 37%;
+  left: 10%;
+  z-index: 100;
+  -webkit-animation: linear infinite alternate;
+  -webkit-animation-name: boatleft;
+  -webkit-animation-duration: 15s;
 }
 
 /* info1 */
 
-#info1{
-    position: relative;
-    width: 100%;
-    height: 60vw;
-    max-width: 100%;
-    margin: 0 auto;
+#info1 {
+  position: relative;
+  width: 100%;
+  height: 60vw;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .topic1 {
-    position: absolute;
-    z-index: 100;
-    width: 30vw;
-    height: 50vw;
-    right: 50vw;
-    font-size: 1.5em;
-    color: #38160d;
-    top: 25%;
-  }
-.topic1 h2{
-    font-family: "Chonburi";
-    font-size: 1.8em;
+  position: absolute;
+  z-index: 100;
+  width: 30vw;
+  height: 50vw;
+  right: 50vw;
+  font-size: 1.5em;
+  color: #38160d;
+  top: 25%;
 }
-.topic1 h4{
-    margin-left: 10%;
-    font-family: "THSarabunNew";
+.topic1 h2 {
+  font-family: "Chonburi";
+  font-size: 1.8em;
 }
-.topic1 p{
-    font-size: 0.8em;
-    font-family: "THSarabunNew";
+.topic1 h4 {
+  margin-left: 10%;
+  font-family: "THSarabunNew";
 }
-
-.info1img{
-    position: absolute;
-    width: 27%;
-    left: 55%;
-    top: 28%;
-    z-index: 100;
+.topic1 p {
+  font-size: 0.8em;
+  font-family: "THSarabunNew";
 }
 
-.minisun{
-    position: absolute;
-    width: 5%;
-    left: 40%;
-    top: 27.5%;
-    z-index: 95;
+.info1img {
+  position: absolute;
+  width: 27%;
+  left: 55%;
+  top: 28%;
+  z-index: 100;
 }
-.miniboat{
-    position: absolute;
-    width: 8%;
-    z-index: 95;
-    left: 44%;
-    top: 38%;
+
+.minisun {
+  position: absolute;
+  width: 5%;
+  left: 40%;
+  top: 27.5%;
+  z-index: 95;
 }
-.miniboat2{
-    position: absolute;
-    width: 8%;
-    z-index: 95;
-    left: 12%;
-    top: 34%;
+.miniboat {
+  position: absolute;
+  width: 8%;
+  z-index: 95;
+  left: 44%;
+  top: 38%;
 }
-.miniwave{
-    position: absolute;
-    width: 5%;
-    left: 45%;
-    top: 20%;
-    z-index: 95;
+.miniboat2 {
+  position: absolute;
+  width: 8%;
+  z-index: 95;
+  left: 12%;
+  top: 34%;
 }
-.miniwave2{
-    position: absolute;
-    width: 5%;
-    z-index: 95;
-    left: 7%;
-    top: 50%;
+.miniwave {
+  position: absolute;
+  width: 5%;
+  left: 45%;
+  top: 20%;
+  z-index: 95;
 }
-.miniwave3{
-    position: absolute;
-    width: 5%;
-    left: 85%;
-    top: 40%;
-    z-index: 95;
+.miniwave2 {
+  position: absolute;
+  width: 5%;
+  z-index: 95;
+  left: 7%;
+  top: 50%;
 }
-.cloudfarm{
-    position: absolute;
-    width: 100%;
-    z-index: 95;
-    left: 0%;
-    -webkit-animation:linear infinite alternate;
-    -webkit-animation-name: cloundtop;
-    -webkit-animation-duration: 20s;
+.miniwave3 {
+  position: absolute;
+  width: 5%;
+  left: 85%;
+  top: 40%;
+  z-index: 95;
 }
-#windmill{
-    position: absolute;
-    width: 10%;
-    z-index: 100;
-    top: 63%;
-    left: 5.75%;
+.cloudfarm {
+  position: absolute;
+  width: 100%;
+  z-index: 95;
+  left: 0%;
+  -webkit-animation: linear infinite alternate;
+  -webkit-animation-name: cloundtop;
+  -webkit-animation-duration: 20s;
 }
-.bgfarm{
-    position: absolute;
-    width: 100%;
-    bottom: 0%;
-    z-index: 99;
+#windmill {
+  position: absolute;
+  width: 10%;
+  z-index: 100;
+  top: 63%;
+  left: 5.75%;
+}
+.bgfarm {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  z-index: 99;
 }
 /* info2 */
-#info2{
-    position: relative;
-    width: 100%;
-    height: 50vw;
-    max-width: 100%;
-    margin: 0 auto;
+#info2 {
+  position: relative;
+  width: 100%;
+  height: 50vw;
+  max-width: 100%;
+  margin: 0 auto;
 }
-.info2img{
-    position: absolute;
-    width: 40%;
-    top: 3%;
-    z-index: 100;
+.info2img {
+  position: absolute;
+  width: 40%;
+  top: 3%;
+  z-index: 100;
 }
 .topic2 {
-    position: absolute;
-    z-index: 100;
-    width: 30vw;
-    height: 50vw;
-    right: 25vw;
-    font-size: 1.5em;
-    color: #38160d;
-    top: 5%;
-  }
-.topic2 h2{
-    font-family: "Chonburi";
-    font-size: 1.8em;
+  position: absolute;
+  z-index: 100;
+  width: 30vw;
+  height: 50vw;
+  right: 25vw;
+  font-size: 1.5em;
+  color: #38160d;
+  top: 5%;
 }
-.topic2 h4{
-    margin-left: 10%;
-    font-family: "THSarabunNew";
+.topic2 h2 {
+  font-family: "Chonburi";
+  font-size: 1.8em;
 }
-.topic2 p{
-    font-size: 0.7em;
-    font-family: "THSarabunNew";
+.topic2 h4 {
+  margin-left: 10%;
+  font-family: "THSarabunNew";
 }
-.info2date{
-    font-family: "Chonburi";
-    font-size: 1.5em;
-    color: rgb(118, 116, 113);
+.topic2 p {
+  font-size: 0.7em;
+  font-family: "THSarabunNew";
+}
+.info2date {
+  font-family: "Chonburi";
+  font-size: 1.5em;
+  color: rgb(118, 116, 113);
 }
 
 @-webkit-keyframes cloundmid {
-    0% { left: 0%;}
-    50%{ left : 28%;}
-    100%{ left: 0%;}
+  0% {
+    left: 0%;
+  }
+  50% {
+    left: 28%;
+  }
+  100% {
+    left: 0%;
+  }
 }
 
-.cloudmid{
-    position: absolute;
-    width: 60%;
-    z-index: 95;
-    top: 10%;
-    left: 0%;
-    -webkit-animation:linear infinite alternate;
-    -webkit-animation-name: cloundmid;
-    -webkit-animation-duration: 20s;
+.cloudmid {
+  position: absolute;
+  width: 60%;
+  z-index: 95;
+  top: 10%;
+  left: 0%;
+  -webkit-animation: linear infinite alternate;
+  -webkit-animation-name: cloundmid;
+  -webkit-animation-duration: 20s;
 }
 
 @-webkit-keyframes dukdik {
-    0% { transform: rotate(-5deg);}
-    50%{ transform: rotate(5deg);}
-    100%{ transform: rotate(-5deg);}
+  0% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
 }
 
-#milk{
-    position: absolute;
-    width: 20%;
-    z-index: 97;
-    top: 55%;
-    left: 78%;
+#milk {
+  position: absolute;
+  width: 20%;
+  z-index: 97;
+  top: 55%;
+  left: 78%;
 }
-#flagden{
-    position: absolute;
-    width: 10%;
-    z-index: 96;
-    left: 84%;
-    top: 24.5%;
+#flagden {
+  position: absolute;
+  width: 10%;
+  z-index: 96;
+  left: 84%;
+  top: 24.5%;
 }
 
-.dukdik{
-    -webkit-animation: linear infinite alternate;
-    -webkit-animation-name: dukdik;
-    -webkit-animation-duration: 1s;
+.dukdik {
+  -webkit-animation: linear infinite alternate;
+  -webkit-animation-name: dukdik;
+  -webkit-animation-duration: 1s;
 }
 
 /* info3 */
 
-#info3{
-    position: relative;
-    width: 100%;
-    height: 50vw;
-    max-width: 100%;
-    margin: 0 auto;
+#info3 {
+  position: relative;
+  width: 100%;
+  height: 50vw;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .topic3 {
-    position: absolute;
-    z-index: 100;
-    width: 30vw;
-    height: 50vw;
-    right: 25vw;
-    font-size: 1.5em;
-    color: #38160d;
-    top: 5%;
-  }
-.topic3 h2{
-    font-family: "Chonburi";
-    font-size: 1.8em;
+  position: absolute;
+  z-index: 100;
+  width: 30vw;
+  height: 50vw;
+  right: 25vw;
+  font-size: 1.5em;
+  color: #38160d;
+  top: 5%;
+}
+.topic3 h2 {
+  font-family: "Chonburi";
+  font-size: 1.8em;
 }
 
-.topic3 p{
-    font-size: 0.7em;
-    font-family: "THSarabunNew";
-    background-color: rgb(204, 255, 204);
-    border-radius: 1em;
-    padding: 5%;
+.topic3 p {
+  font-size: 0.7em;
+  font-family: "THSarabunNew";
+  background-color: rgb(204, 255, 204);
+  border-radius: 1em;
+  padding: 5%;
 }
-.info3img{
-    position: absolute;
-    width: 30%;
-    top: 10%;
-    left: 10%;
-    z-index: 100;
+.info3img {
+  position: absolute;
+  width: 30%;
+  top: 10%;
+  left: 10%;
+  z-index: 100;
 }
-.saipan{
-    position: absolute;
-    width: 65%;
-    top: 65%;
-    left: 20%;
-    z-index: 100;
+.saipan {
+  position: absolute;
+  width: 65%;
+  top: 65%;
+  left: 20%;
+  z-index: 100;
 }
-#butter{
-    position: absolute;
-    width: 20%;
-    top: 35%;
-    left: 48%;
-    z-index: 100;
-}
-
-#butter2{
-    position: absolute;
-    width: 15%;
-    top: 35%;
-    left: 65%;
-    z-index: 100;
- 
+#butter {
+  position: absolute;
+  width: 20%;
+  top: 35%;
+  left: 48%;
+  z-index: 100;
 }
 
-
-
-
+#butter2 {
+  position: absolute;
+  width: 15%;
+  top: 35%;
+  left: 65%;
+  z-index: 100;
+}
 
 @-webkit-keyframes cloundfoot {
-    0% { left: 0%;}
-    50%{ left : 30%;}
-    100%{ left: 0%;}
-}
-.footcloud{
-    position: absolute;
-    width: 80%;
-    z-index: 95;
+  0% {
     left: 0%;
-    -webkit-animation:linear infinite alternate;
-    -webkit-animation-name: cloundfoot;
-    -webkit-animation-duration: 10s;
+  }
+  50% {
+    left: 30%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+.footcloud {
+  position: absolute;
+  width: 80%;
+  z-index: 95;
+  left: 0%;
+  -webkit-animation: linear infinite alternate;
+  -webkit-animation-name: cloundfoot;
+  -webkit-animation-duration: 10s;
 }
 
 /* footer */
-#footer{
-    position: relative;
-    width: 100%;
-    height: 30vw;
-    max-width: 100%;
-    margin: 0 auto;
+#footer {
+  position: relative;
+  width: 100%;
+  height: 30vw;
+  max-width: 100%;
+  margin: 0 auto;
 }
-.bgfoot{
-    position: absolute;
-    width: 100%;
-    bottom: 0%;
-    z-index: 100;
+.bgfoot {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  z-index: 100;
 }
 
 @-webkit-keyframes cloundfoot {
-    0% { left: 10%;}
-    50%{ left : 20%;}
-    100%{ left: 10%;}
-}
-.cloudfooter{
-    position: absolute;
-    width: 80%;
-    z-index: 101;
+  0% {
     left: 10%;
-    -webkit-animation:linear infinite alternate;
-    -webkit-animation-name: cloundfoot;
-    -webkit-animation-duration: 20s;
+  }
+  50% {
+    left: 20%;
+  }
+  100% {
+    left: 10%;
+  }
 }
-.copyright{
-    position: absolute;
-    background-color: #6B5A3A;
-    width: 100%;
-    height: 7.5vw;
-    z-index: 100;
+.cloudfooter {
+  position: absolute;
+  width: 80%;
+  z-index: 101;
+  left: 10%;
+  -webkit-animation: linear infinite alternate;
+  -webkit-animation-name: cloundfoot;
+  -webkit-animation-duration: 20s;
+}
+
+.copyright {
+  position: absolute;
+  background-color: #6b5a3a;
+  width: 100%;
+  height: 25vw;
+  z-index: 100;
 }
 .copytext {
-    position: absolute;
-    z-index: 100;
-    width: 42vw;
-    font-size: 1vw;
-    color: #ffffff;
-    left: 55vw;
-    font-family: "THSarabunNew";
-  }
+  z-index: 100;
+  width: 50vw;
+  font-size: 1.2vw;
+  margin-top: 5%;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Kanit", sans-serif;
+}
+.logo-footer img {
+  width: 60%;
+}
