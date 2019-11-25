@@ -378,9 +378,9 @@ h1 {
 
 .text-layer3:nth-child(5) {
   position: absolute;
-  width: 87%;
+  width: 85%;
   top: 70%;
-  right: 6%;
+  right: 7%;
   z-index: 10;
 }
 
