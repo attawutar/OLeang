@@ -171,20 +171,20 @@ h1 {
   width: 30vw;
   height: 50vw;
   right: 50vw;
-  font-size: 1.5em;
+  font-size: 1.5vw;
   color: #38160d;
   top: 25%;
 }
 .topic1 h2 {
   font-family: "Chonburi";
-  font-size: 1.8em;
+  font-size: 2.5vw;
 }
 .topic1 h4 {
   margin-left: 10%;
   font-family: "THSarabunNew";
 }
 .topic1 p {
-  font-size: 0.8em;
+  font-size: 1.25vw;
   font-family: "THSarabunNew";
 }
 
@@ -286,19 +286,21 @@ h1 {
 }
 .topic2 h2 {
   font-family: "Chonburi";
-  font-size: 1.8em;
+  font-size: 2.5vw;
 }
 .topic2 h4 {
   margin-left: 10%;
   font-family: "THSarabunNew";
 }
 .topic2 p {
-  font-size: 0.7em;
+  font-size: 1.4vw;
+  margin-bottom: 0;
   font-family: "THSarabunNew";
 }
 .info2date {
   font-family: "Chonburi";
-  font-size: 1.5em;
+  margin-top: 0;
+  font-size: 2.5vw;
   color: rgb(118, 116, 113);
 }
 
@@ -380,11 +382,11 @@ h1 {
 }
 .topic3 h2 {
   font-family: "Chonburi";
-  font-size: 1.8em;
+  font-size: 2.5vw;
 }
 
 .topic3 p {
-  font-size: 0.7em;
+  font-size: 1.2vw;
   font-family: "THSarabunNew";
   background-color: rgb(204, 255, 204);
   border-radius: 1em;

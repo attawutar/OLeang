@@ -121,14 +121,14 @@ h1 {
 }
 .topic1 h2 {
   font-family: "Chonburi";
-  font-size: 1.8em;
+  font-size: 3vw;
 }
 .topic1 h4 {
   margin-left: 10%;
   font-family: "THSarabunNew";
 }
 .topic1 p {
-  font-size: 0.8em;
+  font-size: 1.6vw;
   font-family: "THSarabunNew";
 }
 
@@ -209,14 +209,14 @@ h1 {
 }
 .topic2 h2 {
   font-family: "Chonburi";
-  font-size: 1.8em;
+  font-size: 3vw;
 }
 .topic2 h4 {
   margin-left: 10%;
   font-family: "THSarabunNew";
 }
 .topic2 p {
-  font-size: 0.7em;
+  font-size: 1.3vw;
   font-family: "THSarabunNew";
 }
 
@@ -338,11 +338,11 @@ h1 {
 }
 .topic3 h2 {
   font-family: "Chonburi";
-  font-size: 1.8em;
+  font-size: 3vw;
 }
 
 .topic3 p {
-  font-size: 0.7em;
+  font-size: 1.8vw;
   font-family: "THSarabunNew";
 }
 #theworld {
