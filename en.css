@@ -709,6 +709,9 @@ h1 {
   top: 42%;
   z-index: 103;
   left: 8.5%;
+  -webkit-animation: linear infinite alternate;
+  -webkit-animation-name: swing;
+  -webkit-animation-duration: 15s;
 }
 
 .back-layer4:nth-child(4) img {
@@ -717,6 +720,9 @@ h1 {
   top: 84.5%;
   left: 43.5%;
   z-index: 99;
+  -webkit-animation: ease-in-out infinite;
+  -webkit-animation-name: bus;
+  -webkit-animation-duration: 10s;
 }
 
 .back-layer4:nth-child(5) img {
@@ -741,6 +747,9 @@ h1 {
   top: 20%;
   z-index: 98;
   left: 20%;
+  -webkit-animation: linear infinite alternate;
+  -webkit-animation-name: cloud2;
+  -webkit-animation-duration: 35s;
 }
 
 .back-layer4:nth-child(8) img {
@@ -757,6 +766,9 @@ h1 {
   top: 35%;
   z-index: 98;
   left: 80%;
+  -webkit-animation: linear infinite alternate;
+  -webkit-animation-name: cloud1;
+  -webkit-animation-duration: 20s;
 }
 
 .back-layer4:nth-child(10) img {
@@ -781,6 +793,9 @@ h1 {
   top: 61%;
   z-index: 98;
   left: 25%;
+  -webkit-animation: linear infinite alternate;
+  -webkit-animation-name: cloud3;
+  -webkit-animation-duration: 35s;
 }
 
 /* footer */

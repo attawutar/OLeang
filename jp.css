@@ -623,6 +623,9 @@ h1 {
   top: 11%;
   right: 13%;
   z-index: 101;
+  -webkit-animation: linear infinite alternate;
+  -webkit-animation-name: cloud1;
+  -webkit-animation-duration: 10s;
 }
 
 .back-layer5:nth-child(5) img {
@@ -631,6 +634,9 @@ h1 {
   top: 17%;
   right: 41%;
   z-index: 100;
+  -webkit-animation: linear infinite alternate;
+  -webkit-animation-name: cloudwhite;
+  -webkit-animation-duration: 25s;
 }
 /* footer */
 .copyright {
