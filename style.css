@@ -108,7 +108,7 @@ body {
   .car{
     width: 13%;
     left: 47%;
-    top: 62%;
+    top: 63%;
     position: absolute;
     z-index: 1000;
   }
@@ -140,7 +140,7 @@ body {
     top: 78% ;
     left: 15%;
     text-align:center;
-    font-size:0.8vw;
+    font-size:0.9vw;
     color:rgb(186, 134, 56);
     position: relative;
     line-height:.7;
